@@ -1,0 +1,2161 @@
+$media: screen;
+$feature_min: min-width;
+$feature_max: max-width;
+$value_one: 767px;
+$value_two: 768px;
+$value_three: 991px;
+$value_four: 992px;
+$value_five: 1199px;
+$value_six: 1350px;
+
+$font-family: 'Exo', sans-serif;
+$optional-font-family: 'Roboto', sans-serif;
+$main-color: #58fba8;
+$gradient-color: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);;
+$paragraph-color: #4c6c90;
+$black-color: #384656;
+$white-color: #ffffff;
+$font-size: 13px;
+$transition: .5s;
+
+@media only #{$media} and ($feature_max : $value_one) {
+    
+    body {
+        font-size: $font-size;
+    }
+    p {
+        font-size: $font-size;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .ptb-120 {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        }
+    }
+    .section-title {
+        max-width: 100%;
+        margin: {
+            left: 0;
+            right: 0;
+            bottom: 40px;
+        }
+        h2 {
+            font-size: 19px;
+
+            br {
+                display: none;
+            }
+        }
+    }
+    .form-control {
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .navbar {
+        padding: {
+            left: 15px;
+            right: 15px;
+            top: 15px;
+            bottom: 15px;
+        }
+        &.is-sticky {
+            padding: {
+                left: 15px;
+                right: 15px;
+                top: 15px;
+                bottom: 15px;
+            }
+        }
+    }
+    .navbar-light {
+        .navbar-toggler {
+            padding: 5px 10px;
+            outline: 0;
+            border-color: $black-color;
+            border-radius: 0;
+
+            &:focus {
+                box-shadow: unset !important;
+            }
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        .navbar-nav {
+            background-color: $white-color;
+            padding: 20px;
+
+            .nav-item {
+                .nav-link {
+                    display: inline-block;
+                    margin: {
+                        left: 0;
+                        right: 0;
+                        top: 12px;
+                        bottom: 12px;
+                    }
+                }
+                &:first-child {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                &:last-child {
+                    a {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .others-options {
+            background-color: $white-color;
+            margin-left: 0;
+            padding: {
+                left: 20px;
+                bottom: 20px;
+            }
+            .default-btn {
+                background-color: $black-color;
+                color: $white-color;
+
+                &:hover {
+                    background-color: $main-color;
+                    color: $black-color;
+                }
+            }
+        }
+        &.is-sticky {
+            .navbar-nav {
+                border: 1px solid #eeeeee;
+                border-bottom: none;
+            }
+            .others-options {
+                border: 1px solid #eeeeee;
+                border-top: none;
+            }
+        }
+    }
+
+    .vr-main-banner {
+        padding: {
+            top: 150px;
+            bottom: 75px;
+        }
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 13px;
+        }
+        h1 {
+            margin: {
+                top: 7px;
+                bottom: 10px;
+            }
+            line-height: 1.2;
+            font-size: 25px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+
+        img {
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                display: none;
+            }
+            &:nth-child(5) {
+                display: block;
+            }
+        }
+    }
+    .vr-main-banner-two {
+        margin-bottom: 0;
+        padding: {
+            top: 150px;
+            bottom: 70px;
+        }
+        .banner-image {
+            img {
+                display: block !important;
+                right: 0 !important;
+            }
+        }
+    }
+    .hero-content {
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 13px;
+        }
+        h1 {
+            margin: {
+                top: 7px;
+                bottom: 10px;
+            }
+            line-height: 1.2;
+            font-size: 25px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .shape1, .shape2, .shape3, .shape4, .shape5, .shape6, .shape7, .shape8, .shape9, .shape10, .shape11 {
+        display: none;
+    }
+    .dot-shape1, .dot-shape2, .dot-shape3, .dot-shape4, .dot-shape5, .dot-shape6 {
+        display: none;
+    }
+    .headphone-main-banner {
+        padding: {
+            top: 150px;
+            bottom: 90px;
+        }
+    }
+    .headphone-banner-image {
+        margin-top: 35px;
+    }
+    .eye-glass-main-banner {
+        padding: {
+            top: 150px;
+            bottom: 100px;
+        }
+    }
+    .eye-glass-hero-content {
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 13px;
+        }
+        h1 {
+            margin-bottom: 15px;
+            line-height: 1.2;
+            font-size: 25px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .eye-glass-banner-image {
+        margin-top: 55px;
+
+        img {
+            &:nth-child(2) {
+                top: -100px;
+            }
+        }
+    }
+
+    .about-area {
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .vr-about-content {
+        margin-bottom: 35px;
+        text-align: center;
+
+        h2 {
+            line-height: 1.3;
+            font-size: 19px;
+        }
+        .about-features {
+            margin-top: 5px;
+
+            .features-box {
+                border: none !important;
+                padding: 0;
+                margin-top: 30px;
+                
+                i {
+                    margin-bottom: 5px;
+
+                    &::before {
+                        font-size: 35px;
+                    }
+                }
+                h3 {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .headphone-about-area {
+        padding-top: 50px;
+
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .headphone-about-content {
+        text-align: center;
+
+        h2 {
+            font-size: 19px;
+        }
+        ul {
+            text-align: left;
+            margin: {
+                right: -5px;
+                left: -5px;
+            }
+            li {
+                font-size: 13px;
+                margin-top: 12px;
+                padding: {
+                    right: 5px;
+                    left: 5px;
+                }
+            }
+        }
+    }
+    .headphone-about-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .eye-glass-about-area {
+        padding-bottom: 20px;
+    }
+    .single-about-box {
+        .icon {
+            i {
+                &::before {
+                    font-size: 35px;
+                }
+            }
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 45px;
+        }
+    }
+
+    .compatibility-area {
+        &::before {
+            display: none;
+        }
+    }
+    .compatibility-content {
+        text-align: center;
+
+        h2 {
+            font-size: 19px;
+        }
+    }
+    .compatibility-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .headphone-features-area {
+        padding: {
+            top: 50px;
+            bottom: 20px;
+        }
+    }
+    .single-features {
+        margin-bottom: 30px;
+
+        i {
+            margin-bottom: 5px;
+
+            &::before {
+                font-size: 35px;
+            }
+        }
+        h3 {
+            font-size: 12px;
+        }
+    }
+
+    .discover-phone-content {
+        .all-phone {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: {
+                left: 0;
+                right: 0;
+            }
+            margin: {
+                left: -15px;
+                right: -15px;
+                top: -25px;
+            }
+            .single-phone {
+                -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%;
+                margin-top: 25px;
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                }
+                h4 {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .vr-connect-features {
+        margin-top: 25px;
+        padding-top: 0;
+    }
+    .single-connect-features {
+        text-align: center;
+        margin-top: 25px;
+
+        h4 {
+            font-size: 13px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .headphone-design-image {
+        margin-top: 0;
+    }
+    .headphone-design-content {
+        margin-top: 45px;
+        
+        h3 {
+            font-size: 19px;
+            margin-bottom: 25px;
+        }
+    }
+    .headphone-design-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*="owl-"] {
+                    i {
+                        &::before {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .owl-nav {
+                    [class*="owl-"] {
+                        left: 15px;
+
+                        &.owl-next {
+                            left: auto;
+                            right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .photo-gallery-area {
+        .section-title {
+            margin-bottom: 25px;
+        }
+    }
+    .photo-gallery-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*="owl-"] {
+                    i {
+                        &::before {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .owl-nav {
+                    [class*="owl-"] {
+                        left: 15px;
+
+                        &.owl-next {
+                            left: auto;
+                            right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .vr-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+    .vr-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        order: 1;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+        span {
+            font-size: 12px;
+        }
+        h4 {
+            font-size: 13px;
+
+            &:not(:first-child) {
+                margin-top: 25px;
+            }
+        }
+    }
+    .vr-specifications-image {
+        margin-top: 35px;
+        order: 2;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+    }
+
+    .headphone-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+        .align-items-center {
+            -ms-flex-align: unset !important;
+            align-items: unset !important;
+        }
+    }
+    .headphone-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        order: 2;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+        .single-specifications {
+            margin: {
+                left: 0 !important;
+                right: 0 !important;
+            }
+            span {
+                font-size: 12px;
+            }
+            h4 {
+                font-size: 13px;
+            }
+            &:not(:first-child) {
+                margin-top: 25px;
+            }
+        }
+    }
+    .headphone-specifications-image {
+        margin-bottom: 40px;
+        order: 1;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+    }
+
+    .eye-glass-specifications-image {
+        .single-image {
+            padding: {
+                right: 35px;
+                bottom: 35px;
+            }
+        }
+        h2 {
+            display: none;
+        }
+        .owl-theme {
+            .owl-nav {
+                bottom: 10px;
+
+                [class*="owl-"] {
+                    i {
+                        &::before {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .eye-glass-specifications-content {
+        padding-left: 0;
+        margin-top: 35px;
+
+        h3 {
+            margin-bottom: 25px;
+            font-size: 19px;
+        }
+        ul {
+            li {
+                font-size: 13px;
+
+                span {
+                    float: unset;
+                    width: 100%;
+                    font-size: 14px;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+    }
+
+    .eye-glass-features-area {
+        &::before {
+            height: 50%;
+        }
+    }
+    .eye-glass-features-tab {
+        .tabs {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+            li {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+                
+                a {
+                    padding: 10px 17px;
+                    font-size: 13px;
+
+                    i {
+                        &::before {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        .tab_content {
+            padding: 25px;
+        }
+        .eye-glass-features-content {
+            h3 {
+                font-size: 16px;
+                margin-bottom: 13px;
+            }
+            span {
+                font-size: 13px;
+            }
+        }
+        .eye-glass-features-video {
+            margin-top: 35px;
+            padding: {
+                left: 30px;
+                bottom: 30px;
+            }
+            .video-btn {
+                bottom: 3px;
+            }
+            h2 {
+                left: 1px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .explore-area {
+        padding: {
+            top: 300px;
+            bottom: 300px;
+        }
+    }
+    .explore-content {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .feedback-item {
+        .client-profile {
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .client-info {
+            margin-top: 20px;
+
+            h4 {
+                margin-bottom: 4px;
+                font-size: 16px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .our-clients-content {
+        text-align: center;
+
+        h2 {
+            font-size: 19px;
+        }
+    }
+    .our-clients-list {
+        padding-left: 0;
+        margin-top: 5px;
+
+        .single-clients {
+            margin-top: 25px !important;
+        }
+        .col-lg-4 {
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+        .col-lg-4 {
+            &:last-child {
+                overflow: hidden;
+
+                .single-clients {
+                    float: left;
+                    width: 50%;
+
+                    &:first-child {
+                        padding-right: 15px;
+                    }
+                    &:last-child {
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                .accordion-title {
+                    padding: 10px 35px 10px 20px;
+                    font-size: 13px;
+
+                    i {
+                        right: 15px;
+                    }
+                }
+                .accordion-content {
+                    padding: 0 20px 10px 20px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .faq-image {
+        margin-top: 30px;
+    }
+
+    .shop-area {
+        padding-bottom: 20px;
+    
+        .row {
+            padding: {
+                left: 0;
+                right: 0;
+            }
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+            .col-lg-6 {
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                }
+                &:first-child {
+                    .single-products {
+                        margin-top: 0;
+                    }
+                }
+                &:nth-child(4), &:nth-child(6), &:nth-child(8), &:nth-child(10), &:nth-child(12), &:nth-child(14), &:nth-child(16), &:nth-child(18), &:nth-child(20), &:nth-child(22), &:nth-child(24), &:nth-child(26) {
+                    .single-products {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .single-products {
+        img {
+            padding-left: 25px;
+        }
+        h3 {
+            left: 15px;
+            font-size: 14px;
+        }
+    }
+
+    .navbar.navbar-style-two {
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+    }
+
+    .page-title-area {
+        padding: {
+            top: 140px;
+            bottom: 85px;
+        }
+        h2 {
+            font-size: 20px;
+            line-height: 1.4;
+        }
+    }
+    .shape-box1, .shape-box3, .shape-box4, .shape-box5, .shape-box7, .shape-box8 {
+        display: none;
+    }
+
+    .blog-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+        .col-lg-8, .col-lg-4 {
+            padding: {
+                left: 15px;
+                right: 15px;
+            }
+        }
+    }
+    .single-blog-big-box {
+        .entry-post-content {
+            padding: 25px 20px;
+            margin: {
+                left: 10px;
+                right: 10px;
+                top: -50px;
+            }
+            .entry-meta {
+                margin-bottom: 10px;
+            }
+            .entry-title {
+                h3 {
+                    font-size: 18px;
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
+    .single-blog-box {
+        .entry-post-content {
+            .entry-meta {
+                margin-bottom: 5px;
+
+                ul {
+                    li {
+                        margin: {
+                            bottom: 5px;
+                            left: 0;
+                            right: 21px;
+                        }
+                    }
+                }
+            }
+            .entry-title {
+                h3 {
+                    font-size: 18px;
+                    line-height: 1.4;
+                }
+                p {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .pagination-area {
+        margin-top: 10px;
+
+        .page-numbers {
+            width: 38px;
+            height: 38px;
+            margin: 0 2px;
+            line-height: 40px;
+            font-size: 15px;
+        }
+    }
+
+    .widget-area {
+        margin-top: 40px;
+
+        .widget {
+            .widget-title {
+                font-size: 17px;
+            }
+        }
+        .widget_busan_posts_thumb {
+            .item {
+                .thumb {
+                    margin-right: 10px;
+                }
+                .info {
+                    time {
+                        font-size: 11px;
+                    }
+                    .title {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .widget_recent_comments {
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        .widget_recent_entries {
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        .widget_archive {
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        .widget_meta {
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        .tagcloud {
+            a {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    .blog-details-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+        .col-lg-8, .col-lg-4 {
+            padding: {
+                left: 15px;
+                right: 15px;
+            }
+        }
+    }
+    .blog-details {
+        .article-content {
+            .entry-meta {
+                margin-bottom: 12px;
+
+                ul {
+                    li {
+                        font-size: 13px;
+                        margin: {
+                            left: 0;
+                            right: 20px;
+                            bottom: 5px;
+                        }
+                        &::before {
+                            right: -11px;
+                            width: 4px;
+                        }
+                        i {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+            .wp-block-gallery {
+                &.columns-3 {
+                    margin-right: -5px;
+                    margin-left: -5px;
+
+                    li {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+        .article-footer {
+            text-align: center;
+
+            .article-tags {
+                -ms-flex: 0 0 100%;
+                -webkit-box-flex: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .article-share {
+                -ms-flex: 0 0 100%;
+                -webkit-box-flex: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+
+                .social {
+                    text-align: center;
+                    margin-top: 10px;
+    
+                    li {
+                        a {
+                            width: 30px;
+                            height: 30px;
+                            line-height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        padding: 20px !important;
+
+        p {
+            font-size: 16px;
+        }
+    }
+    .comments-area {
+        .comment-body {
+            padding-left: 0;
+        }
+        .comments-title {
+            font-size: 18px;
+        }
+        .comment-author {
+            font-size: 14px;
+
+            .avatar {
+                height: 50px;
+                left: 0;
+                position: relative;
+                width: 50px;
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
+        .comment-respond {
+            .comment-reply-title {
+                font-size: 18px;
+            }
+            .comment-form-author {
+                width: 100%;
+                padding-right: 0;
+            }
+            .comment-form-email {
+                padding-left: 0;
+                width: 100%;
+            }
+            .form-submit {
+                input {
+                    padding: 10px 25px 8px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .contact-info {
+        .title {
+            h2 {
+                font-size: 19px;
+            }
+        }
+    }
+    #contactForm {
+        margin-top: 25px;
+    }
+
+    .footer-area {
+        padding-top: 50px;
+    }
+    .single-footer-widget {
+        margin-bottom: 30px;
+
+        h3 {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        .support-list {
+            li {
+                font-size: 13px;
+            }
+        }
+        .quick-links-list {
+            li {
+                font-size: 13px;
+            }
+        }
+        .item {
+            .info {
+                .title {
+                    font-size: 13px;
+                }
+                time {
+                    margin-top: 5px;
+                    font-size: 11px;
+                }
+            }
+        }
+        .newsletter-content {
+            span {
+                font-size: 13px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .copyright-area {
+        margin-top: 20px;
+        text-align: center;
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+        ul {
+            text-align: center;
+            margin-top: 12px;
+        }
+    }
+
+    .go-top {
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        right: 10px;
+
+        i {
+            &::before {
+                font-size: 13px;
+            }
+        }
+    }
+    
+}
+
+@media only #{$media} and ($feature_min : $value_two) and ($feature_max : $value_three) {
+
+    .btn {
+        font-size: 14px;
+    }
+    .ptb-120 {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        }
+    }
+    .section-title {
+        max-width: 540px;
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    .navbar {
+        padding: {
+            left: 30px;
+            right: 30px;
+        }
+        &.is-sticky {
+            padding: {
+                left: 25px;
+                right: 25px;
+            }
+        }
+    }
+    .navbar-light {
+        .navbar-toggler {
+            padding: 5px 10px;
+            outline: 0;
+            border-color: $black-color;
+            border-radius: 0;
+
+            &:focus {
+                box-shadow: unset !important;
+            }
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        .navbar-nav {
+            background-color: $white-color;
+            padding: 20px;
+
+            .nav-item {
+                .nav-link {
+                    display: inline-block;
+                    margin: {
+                        left: 0;
+                        right: 0;
+                        top: 12px;
+                        bottom: 12px;
+                    }
+                }
+                &:first-child {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                &:last-child {
+                    a {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .others-options {
+            background-color: $white-color;
+            margin-left: 0;
+            padding: {
+                left: 20px;
+                bottom: 20px;
+            }
+            .default-btn {
+                background-color: $black-color;
+                color: $white-color;
+
+                &:hover {
+                    background-color: $main-color;
+                    color: $black-color;
+                }
+            }
+        }
+        &.is-sticky {
+            .navbar-nav {
+                border: 1px solid #eeeeee;
+                border-bottom: none;
+            }
+            .others-options {
+                border: 1px solid #eeeeee;
+                border-top: none;
+            }
+        }
+    }
+
+    .vr-main-banner {
+        padding: {
+            top: 160px;
+            bottom: 80px;
+        }
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 15px;
+        }
+        h1 {
+            margin-bottom: 13px;
+            font-size: 37px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+
+        img {
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                display: none;
+            }
+            &:nth-child(5) {
+                display: block;
+            }
+        }
+    }
+    .vr-main-banner-two {
+        padding: {
+            top: 160px;
+            bottom: 100px;
+        }
+        .banner-image {
+            text-align: center;
+
+            img {
+                display: block !important;
+                right: 0 !important;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .hero-content {
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 15px;
+        }
+        h1 {
+            margin-bottom: 13px;
+            font-size: 37px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .shape1, .shape2,.shape3, .shape4, .shape5, .shape6, .shape7, .shape8, .shape9, .shape10, .shape11 {
+        display: none;
+    }
+    .dot-shape1, .dot-shape2, .dot-shape3, .dot-shape4, .dot-shape5, .dot-shape6 {
+        display: none;
+    }
+    .headphone-main-banner {
+        padding: {
+            top: 160px;
+            bottom: 100px;
+        }
+    }
+    .headphone-banner-image {
+        margin-top: 40px;
+    }
+    .eye-glass-main-banner {
+        padding: {
+            top: 160px;
+            bottom: 100px;
+        }
+        .container {
+            max-width: 720px;
+        }
+    }
+    .eye-glass-hero-content {
+        text-align: center;
+
+        span {
+            font-size: 15px;
+        }
+        h1 {
+            margin-bottom: 13px;
+            font-size: 33px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .eye-glass-banner-image {
+        margin-top: 70px;
+
+        img {
+            &:nth-child(2) {
+                top: -150px;
+                max-width: 65%;
+            }
+        }
+    }
+
+    .about-area {
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .vr-about-content {
+        text-align: center;
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            max-width: 548px;
+            font-size: 13.5px;
+            margin: 0 auto;
+        }
+        .about-features {
+            margin-top: 0;
+
+            .features-box {
+                border: none !important;
+                padding: 0;
+                margin-top: 30px;
+
+                i {
+                    &::before {
+                        font-size: 45px;
+                    }
+                }
+                h3 {
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+    .headphone-about-area {
+        padding-top: 80px;
+
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .headphone-about-content {
+        h2 {
+            font-size: 24px;
+        }
+        ul {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+    .headphone-about-image {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .eye-glass-about-area {
+        padding-bottom: 50px;
+    }
+    .single-about-box {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .compatibility-area {
+        &::before {
+            height: 127%;
+            transform: skewY(155deg);
+        }
+    }
+    .compatibility-content {
+        h2 {
+            font-size: 24px;
+        }
+    }
+    .compatibility-image {
+        margin-top: 35px;
+    }
+
+    .headphone-features-area {
+        padding: {
+            top: 50px;
+            bottom: 20px;
+        }
+    }
+    .single-features {
+        margin-bottom: 30px;
+
+        i {
+            &::before {
+                font-size: 40px;
+            }
+        }
+        h3 {
+            font-size: 14px;
+        }
+    }
+
+    .headphone-design-image {
+        margin-top: -450px;
+    }
+    .headphone-design-content {
+        margin-top: 70px;
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    .discover-phone-content {
+        .all-phone {
+            padding: {
+                left: 0;
+                right: 0;
+            }
+            margin: {
+                left: -10px;
+                right: -10px;
+            }
+            .single-phone {
+                padding: {
+                    left: 10px;
+                    right: 10px;
+                }
+                h4 {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .single-connect-features {
+        h4 {
+            font-size: 15px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+
+    .eye-glass-features-tab {
+        .tabs {
+            li {
+                a {
+                    padding: 20px 30px;
+                    font-size: 13px;
+
+                    i {
+                        &::before {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        .tab_content {
+            padding: 30px;
+        }
+        .eye-glass-features-content {
+            h3 {
+                font-size: 18px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .eye-glass-features-video {
+            margin-top: 40px;
+        }
+    }
+
+    .vr-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+    .vr-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        order: 1;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+        h4 {
+            font-size: 14px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+    .vr-specifications-image {
+        margin-top: 40px;
+        order: 2;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+    }
+
+    .headphone-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+        .align-items-center {
+            -ms-flex-align: unset !important;
+            align-items: unset !important;
+        }
+    }
+    .headphone-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        order: 2;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+        .single-specifications {
+            margin: {
+                left: 0 !important;
+                right: 0 !important;
+            }
+            h4 {
+                font-size: 14px;
+            }
+            span {
+                font-size: 13px;
+            }
+        }
+    }
+    .headphone-specifications-image {
+        margin-bottom: 45px;
+        order: 1;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: {
+            left: 15px;
+            right: 15px;
+        }
+    }
+
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                .accordion-title {
+                    font-size: 15px;
+                }
+                .accordion-content {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .shop-area {
+        padding-bottom: 50px;
+
+        .row {
+            padding: {
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+    .single-products {
+        h3 {
+            left: 20px;
+            top: 0;
+            font-size: 16px;
+        }
+        img {
+            padding-left: 35px;
+        }
+    }
+
+    .explore-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .feedback-item {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .eye-glass-specifications-image {
+        h2 {
+            display: none;
+        }
+        .single-image {
+            padding: {
+                right: 50px;
+                bottom: 50px;
+            }
+        }
+        .owl-theme {
+            .owl-nav {
+                bottom: 14px;
+            }
+        }
+    }
+    .eye-glass-specifications-content {
+        padding-left: 0;
+        margin-top: 40px;
+
+        h3 {
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        ul {
+            li {
+                font-size: 14px;
+
+                span {
+                    width: 28%;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .photo-gallery-area {
+        .section-title {
+            margin-bottom: 35px;
+        }
+    }
+
+    .our-clients-content {
+        h2 {
+            font-size: 24px;
+        }
+    }
+    .our-clients-list {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .single-blog-big-box {
+        .entry-post-content {
+            .entry-title {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .single-blog-box {
+        .entry-post-content {
+            .entry-title {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .widget-area {
+        margin-top: 40px;
+
+        .widget {
+            .widget-title {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .page-title-area {
+        h2 {
+            font-size: 22px;
+        }
+    }
+    .shape-box1, .shape-box3, .shape-box4, .shape-box5, .shape-box7, .shape-box8 {
+        display: none;
+    }
+
+    .contact-info {
+        .title {
+            h2 {
+                font-size: 24px;
+            }
+        }
+    }
+    #contactForm {
+        margin-top: 25px;
+    }
+    
+    .faq-image {
+        margin-top: 40px;
+    }
+
+    .footer-area {
+        padding-top: 80px;
+    }
+    .single-footer-widget {
+        margin-bottom: 30px;
+
+        h3 {
+            font-size: 19px;
+            margin-bottom: 20px;
+        }
+        .support-list {
+            li {
+                font-size: 13px;
+            }
+        }
+        .quick-links-list {
+            li {
+                font-size: 13px;
+            }
+        }
+        .item {
+            .info {
+                .title {
+                    font-size: 14px;
+                }
+                time {
+                    margin-top: 5px;
+                    font-size: 11px;
+                }
+            }
+        }
+        .newsletter-content {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .copyright-area {
+        margin-top: 50px;
+    }
+    .copyright-area {
+        p {
+            font: {
+                size: 13px;
+            }
+        }
+        ul {
+            li {
+                font: {
+                    size: 13px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only #{$media} and ($feature_min : $value_four) and ($feature_max : $value_five) {
+
+    .navbar {
+        padding: {
+            left: 20px;
+            right: 20px;
+        }
+        .is-sticky {
+            padding: {
+                left: 25px;
+                right: 25px;
+            }
+        }
+    }
+
+    .main-banner-content {
+        h1 {
+            font-size: 45px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+    .banner-image {
+        text-align: center;
+
+        img {
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                display: none;
+            }
+            &:nth-child(5) {
+                display: block;
+            }
+        }
+    }
+    .vr-main-banner-two {
+        .banner-image {
+            text-align: center;
+
+            img {
+                display: block !important;
+                right: 0 !important;
+            }
+        }
+    }
+    .hero-content {
+        h1 {
+            font-size: 45px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+    .shape1, .shape2,.shape3, .shape4, .shape5, .shape6, .shape7, .shape8, .shape9, .shape10, .shape11 {
+        display: none;
+    }
+    .dot-shape1, .dot-shape2, .dot-shape3, .dot-shape4, .dot-shape5, .dot-shape6 {
+        display: none;
+    }
+    .eye-glass-hero-content {
+        h1 {
+            font-size: 35px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+    .eye-glass-banner-image {
+        img {
+            &:nth-child(2) {
+                top: -165px;
+            }
+        }
+    }
+
+    .vr-about-content {
+        h2 {
+            font-size: 27px;
+        }
+        .about-features {
+            .features-box {
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                }
+                i::before {
+                    font-size: 40px;
+                }
+                h3 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .headphone-about-content {
+        h2 {
+            font-size: 27px;
+        }
+        ul {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .section-title {
+        h2 {
+            font-size: 27px;
+        }
+    }
+
+    .compatibility-area {
+        &::before {
+            height: 129%;
+            content: '';
+            transform: skewY(159deg);
+        }
+    }
+    .compatibility-content {
+        h2 {
+            font-size: 27px;
+        }
+    }
+
+    .eye-glass-features-area {
+        &::before {
+            height: 41.5%;
+        }
+    }
+    .eye-glass-features-tab {
+        .tabs {
+            li {
+                a {
+                    padding: 25px 55px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .our-clients-content {
+        h2 {
+            font-size: 27px;
+        }
+    }
+
+    .eye-glass-specifications-content {
+        h3 {
+            margin-bottom: 30px;
+            font-size: 27px;
+        }
+        ul {
+            li {
+                font-size: 13px;
+
+                span {
+                    width: 36%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .discover-phone-content {
+        .all-phone {
+            padding: {
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
+    .headphone-design-content {
+        margin-top: 80px;
+
+        h3 {
+            font-size: 27px;
+        }
+    }
+
+    .feedback-item {
+        p {
+            font-size: 16px;
+        }
+        .client-info {
+            margin-top: 20px;
+        }
+    }
+
+    .our-clients-list {
+        padding-left: 50px;
+    }
+
+    .vr-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+    .vr-specifications-content {
+        margin-top: 0;
+
+        h4 {
+            &:not(:first-child) {
+                margin-top: 30px;
+            }
+        }
+    }
+    .headphone-specifications-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+
+    .shop-area {
+        .row {
+            margin: {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+
+    .eye-glass-specifications-image {
+        h2 {
+            right: -105%;
+        }
+    }
+
+}
+
+@media only #{$media} and ($feature_min : $value_five) and ($feature_max : $value_six) {
+
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+
+        img {
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                display: none;
+            }
+            &:nth-child(5) {
+                display: block;
+            }
+        }
+    }
+    .vr-main-banner-two {
+        .banner-image {
+            text-align: center;
+
+            img {
+                display: block !important;
+                right: 0 !important;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}

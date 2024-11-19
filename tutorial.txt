@@ -1,0 +1,45 @@
+Client:
+  - Lading Page:
+    - Có sẵn 3 mẫu
+  - Auth:
+    + Đăng nhập
+    + Đăng Ký
+    + Quên mật khẩu
+  - Thống kê tài khoản: Số dư, tổng nạp, tổng đơn
+    + Biểu đồ: đơn hàng, dòng tiền
+  - Tài khoản:
+    + Xem thông tin
+    + Lịch sử hoạt động
+    + Lịch sử giao dịch
+    + Đổi mật khẩu
+  - Nạp tiền:
+    + Thẻ cào (nạp thẻ qua card24h, thesieure...)
+    + Chuyển khoản ngân hàng (auto qua api web2m)
+    + Nạp tiền bằng tiền mã hoá (thông qua api fpayment.co)
+  - Cấp bậc tài khoản: giảm giá và tự động nâng rank theo móc đặt trong admin
+  - Tiếp thị liên kết:
+    + giới thiệu, nhận % tiền hoa hồng theo % được set trong admin
+    + rút tiền về tài khoản website hoặc  về ngân hàng có sẵn
+  - Đơn hàng: tạo và quản lý đơn hàng qua SMMPanel (API v2)
+  - Hỗ trợ API v2 của các site smmpanel hiện tại trên thị trường
+  - Có tài liệu api
+Admin:
+  - Bảng thống kê thành viên, đơn hàng hệ Thống
+  - Quản lý chuyên mục -> Quản lý dịch vụ (server) (import dịch vụ từ api, hoặc thêm server từ api)
+  - Quản lý API Provider (Thêm xoá, sửa các api smm v2)
+  - Quản lý đơn hàng (có thể cập nhật số lượng, trạng thái, resend lại qua api)
+  - Lịch sử nạp thẻ
+  - Lịch sử nhận tiền ngân hàng (qua api)
+  - Lịch sử hoạt động của user/admin
+  - Lịch sử giao dịch
+  - Thêm tài khoản ngân hàng (cho chức năng nạp tiền qua chuyển khoản)
+  - Quản lý tin tức (đăng, xoá, sửa bài viết) #comingsoon
+  - Quản lý giới thiệu (tiếp thị liên kết, xem thông tin, lịch sử giao dịch và duyệt hoá đơn rút tiền)
+  - Quản lý hoá đơn (nạp tiền qua tiền mã hoá)
+  - Quản lý thành viên (đăng nhập, xem, cập nhật mật khẩu, thay đổi số dư, xem lịch sử hoạt động / giao dịch)
+  - Cài đặt hệ thống (cấu hình các thẻ META SEO, logo, favicon, và các tuỳ chỉnh giao diện khác)
+  - Cấu hình API Key (các api key nạp tiền qua web2m, fpayment, thẻ cào...)
+  - Quản lý bản dịch (hệ thống đa ngôn ngữ)
+  - Cài đặt thông báo (các ô thông báo hiện ở các trang như nạp tiền, mua dịch vụ, diều khoản sử dụng...)
+  - Cài đặt loại tiền tệ (tuỳ chỉnh loại tiền tệ website theo ý của bạn) *Hệ thống mặc định là sử dụng Việt Nam Đồng.
+  - Quản lý loại tiền tệ (thêm các loại tiền tệ mới để hiển thị cho user) *Nhập tỷ giá quy đổi từ Việt Nam Đồng sang các loại tiền bạn muốn

@@ -1,0 +1,741 @@
+$main-color: #58fba8;
+$gradient-color: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);;
+$paragraph-color: #cacaca;
+$black-color: #384656;
+$white-color: #ffffff;
+
+// Theme Dark CSS
+.theme-dark {
+
+    body {
+        color: $white-color;
+        background-color: #000000;
+    }
+    p {
+        color: $paragraph-color;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $white-color;
+    }
+    .bg-f4faff {
+        background-color: #111111;
+    }
+    a {
+        color: $white-color;
+    
+        &:hover {
+            color: $main-color;
+        }
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.2);
+        color: $white-color;
+    
+        &::placeholder {
+            color: $paragraph-color;
+        }
+        &:focus {
+            border-color: $main-color;
+        }
+    }
+
+    .btn {
+        color: $white-color;
+    }
+    .btn-light {
+        &::before {
+            background: $white-color;
+        }
+        &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
+            border-color: $main-color;
+        }
+        &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active, .show>&.dropdown-toggle {
+            border-color: $main-color;
+            color: $black-color;
+        }
+        &:hover, &:focus {
+            color: $black-color;
+            border-color: $main-color;
+        }
+    }
+    .btn-primary {
+        color: $black-color;
+
+        &::before {
+            background: $white-color;
+        }
+        &.disabled, &:disabled {
+            color: $black-color;
+        }
+        &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active, .show>&.dropdown-toggle {
+            background-color: $black-color;
+            color: $white-color;
+            
+            &::before {
+                background: $white-color;
+            }
+        }
+        &:hover, &:focus {
+            background-color: $black-color;
+            color: $white-color;
+            
+            &::before {
+                background: $white-color;
+            }
+        }
+    }
+
+    .navbar {
+        &.is-sticky {
+            background: rgba(18, 18, 18, 0.7) !important;
+            backdrop-filter: blur(20px);
+        }
+    }
+    .navbar-light {
+        .navbar-brand {
+            img {
+                filter: invert(1);
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $white-color;
+
+                    &::before {
+                        background: $white-color;
+                    }
+                    &:hover, &.active {
+                        color: $white-color;
+                    }
+                }
+                &.active {
+                    .nav-link {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .vr-main-banner {
+        background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+    }
+    .main-banner-content {
+        span {
+            color: $paragraph-color;
+        }
+        h1 {
+            color: $white-color;
+            text-shadow: 1px 1px $white-color;
+        }
+        .btn-light {
+            &::after {
+                background: $gradient-color;
+            }
+            &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
+                border-color: $main-color;
+            }
+            &:hover, &:focus {
+                border-color: $main-color;
+            }
+        }
+    }
+    .vr-main-banner-two {
+        background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+    }
+    .headphone-main-banner {
+        background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+    }
+    .hero-content {
+        span {
+            color: $paragraph-color;
+        }
+    }
+    .eye-glass-main-banner {
+        background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+    }
+    .eye-glass-hero-content {
+        span {
+            color: $paragraph-color;
+        }
+    }
+
+    .vr-about-content {
+        .col-lg-4 {
+            &:nth-child(1) {
+                .features-box {
+                    border-color: #2e2e2e;
+                }
+            }
+            &:nth-child(2) {
+                .features-box {
+                    border-color: #2e2e2e;
+                }
+            }
+            &:nth-child(3) {
+                .features-box {
+                    border-color: #2e2e2e;
+                }
+            }
+            &:nth-child(4) {
+                .features-box {
+                    border-color: #2e2e2e;
+                }
+            }
+            &:nth-child(5) {
+                .features-box {
+                    border-color: #2e2e2e;
+                }
+            }
+        }
+    }
+    .headphone-about-content {
+        ul {
+            li {
+                color: $white-color;
+            }
+        }
+    }
+    .single-about-box {
+        border-color: #2e2e2e;
+    
+        .icon {
+            i {
+                color: $white-color;
+            }
+        }
+        &:hover {
+            border-color: $black-color;
+            background-color: $black-color;
+        }
+    }
+
+    .discover-phone-content {
+        .all-phone {
+            .single-phone {
+                h4 {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+    .vr-connect-features {
+        border-color: #2e2e2e;
+    }
+    .single-connect-features {
+        span {
+            color: $paragraph-color;
+        }
+    }
+
+    .explore-content {
+        h2 {
+            color: $white-color;
+        }
+        p {
+            color: $white-color;
+        }
+    }
+
+    .page-title-area {
+        background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+    }
+
+    .eye-glass-specifications-content {
+        ul {
+            li {
+                color: $paragraph-color;
+    
+                span {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .faq-area {
+        &.bg-image {
+            background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+        }
+    }
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                border-color: $black-color;
+                background: $black-color;
+
+                .accordion-title {
+                    color: $white-color;
+                    background: $black-color;
+
+                    i {
+                        color: $white-color;
+                    }
+                }
+                .accordion-content {
+                    background-color: $black-color;
+                }
+            }
+        }
+    }
+
+    .feedback-item {
+        .client-info {
+            span {
+                color: $paragraph-color;
+            }
+        }
+    }
+
+    .eye-glass-features-tab {
+        .tabs {
+            li {
+                a {
+                    background-color: #222421;
+                    color: $white-color;
+                }
+                &.current {
+                    a {
+                        background-color: $black-color;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .eye-glass-features-video {
+            &::before {
+                background: #000000;
+            }
+            h2 {
+                color: $white-color;
+            }
+        }
+        .tab_content {
+            background-color: $black-color;
+        }
+    }
+
+    .single-blog-box {
+        background-color: transparent;
+    
+        .entry-post-content {
+            .entry-cat {
+                ul {
+                    li {
+                        color: $paragraph-color;
+    
+                        a {
+                            color: $paragraph-color;
+    
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                        &::before {
+                            background: $paragraph-color;
+                        }
+                    }
+                }
+            }
+            .entry-title {
+                .read-more-btn {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+            .entry-meta {
+                ul {
+                    li {
+                        color: $paragraph-color;
+    
+                        a {
+                            color: $paragraph-color;
+    
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                        &::before {
+                            background: $paragraph-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .single-clients {
+        a {
+            background-color: $black-color;
+        }
+    }
+
+    .pagination-area {
+        .page-numbers {
+            box-shadow: 0 2px 10px 0 $black-color;
+            background-color: $black-color;
+            color: $white-color;
+
+            &.current, &:hover, &:focus {
+                color: $black-color;
+            }
+        }
+    }
+
+    .widget-area {
+        .widget {
+            .widget-title {
+                border-color: #2e2e2e;
+            }
+        }
+        .widget_search {
+            background-color: $black-color;
+    
+            form {
+                .search-field {
+                    border-color: rgba(255, 255, 255, 0.2);
+                    color: $white-color;
+    
+                    &:focus {
+                        border-color: $main-color;
+                    }
+                    &::placeholder {
+                        color: $paragraph-color;
+                    }
+                }
+                button {
+                    &::after {
+                        background: $white-color;
+                    }
+                }
+            }
+        }
+        .widget_busan_posts_thumb {
+            .item {
+                .info {
+                    time {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_entries {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    .post-date {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_comments {
+            ul {
+                li {
+                    color: $paragraph-color;
+
+                    a {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .widget_archive {
+            ul {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+        }
+        .widget_meta {
+            ul {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+        }
+        .tagcloud {
+            a {
+                color: $paragraph-color;
+                border-color: #2e2e2e;
+                
+                &:hover, &:focus {
+                    color: $black-color;
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .blog-details {
+        .article-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $white-color;
+        
+                        a {
+                            color: $paragraph-color;
+        
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                        &::before {
+                            background: $paragraph-color;
+                        }
+                    }
+                }
+            }
+            .article-features-list {
+                li {
+                    color: $paragraph-color;
+    
+                    &::before {
+                        background: $white-color;
+                    }
+                }
+            }
+        }
+        .article-footer {
+            border-color: #2e2e2e;
+
+            .article-tags {
+                span {
+                    color: $white-color;
+                }
+            }
+            .article-share {
+                .social {
+                    li {
+                        a {
+                            color: $white-color;
+                            background-color: $black-color;
+            
+                            &:hover {
+                                color: $black-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        background-color: $black-color;
+
+        p {
+            color: $white-color;
+        }
+        &::before {
+            opacity: .10;
+        }
+    }
+    .comments-area {
+        background-color: $black-color;
+    
+        .comment-body {
+            border-color: rgba(255, 255, 255, 0.1);
+            color: $white-color;
+    
+            .reply {
+                a {
+                    border-color: rgba(255, 255, 255, 0.2);
+                    color: $white-color;
+                    
+                    &:hover {
+                        color: $black-color;
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .comment-metadata {
+            color: $paragraph-color;
+
+            a {
+                color: $paragraph-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        .comment-respond {
+            label {
+                color: $white-color;
+            }
+            input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+                border-color: rgba(255, 255, 255, 0.2);
+                background-color: #485360;
+                color: $white-color;
+    
+                &::placeholder {
+                    color: $white-color;
+                }
+            }
+            .comment-form-cookies-consent {
+                label {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .contact-info {
+        .title {
+            span {
+                color: $paragraph-color;
+            }
+        }
+        .contact-info-list {
+            li {
+                color: $paragraph-color;
+    
+                a {
+                    color: $paragraph-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        .social {
+            li {
+                a {
+                    color: $white-color;
+                    background-color: rgba(255, 255, 255, 0.1);
+    
+                    &:hover {
+                        color: $black-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright-area {
+        p {
+            color: $white-color;
+    
+            a {
+                color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        ul {
+            li {
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    // Theme Dark CSS
+    .theme-dark {
+
+        .navbar-light {
+            .navbar-toggler {
+                border-color: $white-color;
+            }
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+            }
+            .navbar-nav {
+                background-color: $black-color;
+            }
+            .others-options {
+                background-color: $black-color;
+
+                .default-btn {
+                    background-color: #000000;
+                    color: $white-color;
+    
+                    &:hover {
+                        background-color: $main-color;
+                        color: $black-color;
+                    }
+                }
+            }
+            &.is-sticky {
+                .navbar-nav {
+                    border-color: rgba(255, 255, 255, 0.1);
+                }
+                .others-options {
+                    border-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    // Theme Dark CSS
+    .theme-dark {
+
+        .navbar-light {
+            .navbar-toggler {
+                border-color: $white-color;
+            }
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+            }
+            .navbar-nav {
+                background-color: $black-color;
+            }
+            .others-options {
+                background-color: $black-color;
+
+                .default-btn {
+                    background-color: #000000;
+                    color: $white-color;
+    
+                    &:hover {
+                        background-color: $main-color;
+                        color: $black-color;
+                    }
+                }
+            }
+            &.is-sticky {
+                .navbar-nav {
+                    border-color: rgba(255, 255, 255, 0.1);
+                }
+                .others-options {
+                    border-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+        }
+
+    }
+
+}

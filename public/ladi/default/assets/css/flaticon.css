@@ -1,0 +1,100 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 06/08/2019 07:06
+*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../../assets/fonts/Flaticon.eot");
+    src: url("../../assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Flaticon.woff2") format("woff2"), url("../../assets/fonts/Flaticon.woff") format("woff"), url("../../assets/fonts/Flaticon.ttf") format("truetype"), url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.flaticon-vr-glasses:before {
+    content: "\f100";
+}
+
+.flaticon-layers:before {
+    content: "\f101";
+}
+
+.flaticon-tap:before {
+    content: "\f102";
+}
+
+.flaticon-3d-camera:before {
+    content: "\f103";
+}
+
+.flaticon-virtual-reality:before {
+    content: "\f104";
+}
+
+.flaticon-remote-control:before {
+    content: "\f105";
+}
+
+.flaticon-check-square:before {
+    content: "\f106";
+}
+
+.flaticon-photo-camera:before {
+    content: "\f107";
+}
+
+.flaticon-target:before {
+    content: "\f108";
+}
+
+.flaticon-video-camera:before {
+    content: "\f109";
+}
+
+.flaticon-factory:before {
+    content: "\f10a";
+}
+
+.flaticon-doctor:before {
+    content: "\f10b";
+}
+
+.flaticon-maintenance:before {
+    content: "\f10c";
+}
+
+.flaticon-right-arrow:before {
+    content: "\f10d";
+}
+
+.flaticon-left-arrow:before {
+    content: "\f10e";
+}
+
+.flaticon-back:before {
+    content: "\f10f";
+}
+
+.flaticon-play-button:before {
+    content: "\f110";
+}
+
+.flaticon-left-quotes-sign:before {
+    content: "\f111";
+}

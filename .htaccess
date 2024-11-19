@@ -1,0 +1,72 @@
+# Kiểm tra và chuyển hướng sang HTTPS
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Kiểm tra xem HTTPS có sẵn không
+    RewriteCond %{HTTPS} !=on
+
+    # Kiểm tra xem server có hỗ trợ SSL không thông qua biến môi trường
+    RewriteCond %{SERVER_PORT} !=443
+
+    # Nếu không phải HTTPS và server hỗ trợ SSL, chuyển hướng sang HTTPS
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Chuyển hướng tất cả các yêu cầu đến thư mục public
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Chống lỗ hổng Path Traversal
+    RewriteCond %{REQUEST_URI} \.\.\/ [OR]
+    RewriteCond %{REQUEST_URI} \.\.\\
+    RewriteCond %{REQUEST_URI} \.\/
+    RewriteRule ^(.*)$ - [F,L]
+
+    # Nếu yêu cầu là cho một tệp hoặc thư mục có tồn tại
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Thêm /public vào đường dẫn và chuyển hướng
+    RewriteRule ^(.*)$ /public/$1 [L]
+
+    # Đảm bảo trang chủ được chuyển hướng đúng
+    RewriteCond %{REQUEST_URI} ^/$
+    RewriteRule ^ /public/index.php [L]
+</IfModule>
+
+# Chặn truy cập trực tiếp đến các tệp và thư mục quan trọng của Laravel
+<FilesMatch "\.(env|gitignore|gitattributes|log|htaccess|htpasswd|json|lock|config|yaml|twig|phpunit|xml|dist|bak|sh|sql|ini|sh|md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Chặn truy cập vào các thư mục hệ thống
+RedirectMatch 404 ^/(bootstrap|config|database|resources|storage|tests)/.*$
+
+# Bảo vệ chống lỗ hổng directory listing
+Options -Indexes
+
+# Bảo vệ chống lỗ hổng clickjacking
+Header always append X-Frame-Options SAMEORIGIN
+
+# Bảo vệ chống lỗ hổng XSS
+Header set X-XSS-Protection "1; mode=block"
+
+# Bảo vệ chống MIME-type sniffing
+Header set X-Content-Type-Options nosniff
+
+# Bảo vệ chống lỗ hổng CSRF
+Header set X-CSRF-Protection "1; mode=block"
+
+# Chặn các yêu cầu có chứa ../ hoặc ..\ để ngăn chặn Path Traversal
+<IfModule mod_alias.c>
+    RedirectMatch 403 /\.\.(/|\\)
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

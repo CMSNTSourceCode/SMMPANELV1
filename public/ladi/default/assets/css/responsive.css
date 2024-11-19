@@ -1,0 +1,1625 @@
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .ptb-120 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-title {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .section-title h2 {
+        font-size: 19px;
+    }
+    .section-title h2 br {
+        display: none;
+    }
+    .form-control {
+        height: 45px;
+        font-size: 13px;
+    }
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar.is-sticky {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 5px 10px;
+        outline: 0;
+        border-color: #384656;
+        border-radius: 0;
+    }
+    .navbar-light .navbar-toggler:focus {
+        -webkit-box-shadow: unset !important;
+        box-shadow: unset !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .navbar-light .navbar-nav {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child a {
+        margin-top: 0;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child a {
+        margin-bottom: 0;
+    }
+    .navbar-light .others-options {
+        background-color: #ffffff;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-light .others-options .default-btn {
+        background-color: #384656;
+        color: #ffffff;
+    }
+    .navbar-light .others-options .default-btn:hover {
+        background-color: #58fba8;
+        color: #384656;
+    }
+    .navbar-light.is-sticky .navbar-nav {
+        border: 1px solid #eeeeee;
+        border-bottom: none;
+    }
+    .navbar-light.is-sticky .others-options {
+        border: 1px solid #eeeeee;
+        border-top: none;
+    }
+    .vr-main-banner {
+        padding-top: 150px;
+        padding-bottom: 75px;
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main-banner-content span {
+        font-size: 13px;
+    }
+    .main-banner-content h1 {
+        margin-top: 7px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        font-size: 25px;
+    }
+    .main-banner-content .btn {
+        margin-top: 20px;
+    }
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .banner-image img:nth-child(1),
+    .banner-image img:nth-child(2),
+    .banner-image img:nth-child(3),
+    .banner-image img:nth-child(4) {
+        display: none;
+    }
+    .banner-image img:nth-child(5) {
+        display: block;
+    }
+    .vr-main-banner-two {
+        margin-bottom: 0;
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+    .vr-main-banner-two .banner-image img {
+        display: block !important;
+        right: 0 !important;
+    }
+    .hero-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero-content span {
+        font-size: 13px;
+    }
+    .hero-content h1 {
+        margin-top: 7px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        font-size: 25px;
+    }
+    .hero-content .btn {
+        margin-top: 20px;
+    }
+    .shape1,
+    .shape2,
+    .shape3,
+    .shape4,
+    .shape5,
+    .shape6,
+    .shape7,
+    .shape8,
+    .shape9,
+    .shape10,
+    .shape11 {
+        display: none;
+    }
+    .dot-shape1,
+    .dot-shape2,
+    .dot-shape3,
+    .dot-shape4,
+    .dot-shape5,
+    .dot-shape6 {
+        display: none;
+    }
+    .headphone-main-banner {
+        padding-top: 150px;
+        padding-bottom: 90px;
+    }
+    .headphone-banner-image {
+        margin-top: 35px;
+    }
+    .eye-glass-main-banner {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .eye-glass-hero-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .eye-glass-hero-content span {
+        font-size: 13px;
+    }
+    .eye-glass-hero-content h1 {
+        margin-bottom: 15px;
+        line-height: 1.2;
+        font-size: 25px;
+    }
+    .eye-glass-hero-content .btn {
+        margin-top: 20px;
+    }
+    .eye-glass-banner-image {
+        margin-top: 55px;
+    }
+    .eye-glass-banner-image img:nth-child(2) {
+        top: -100px;
+    }
+    .about-area .col-lg-6:first-child {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .about-area .col-lg-6:last-child {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .vr-about-content {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .vr-about-content h2 {
+        line-height: 1.3;
+        font-size: 19px;
+    }
+    .vr-about-content .about-features {
+        margin-top: 5px;
+    }
+    .vr-about-content .about-features .features-box {
+        border: none !important;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .vr-about-content .about-features .features-box i {
+        margin-bottom: 5px;
+    }
+    .vr-about-content .about-features .features-box i::before {
+        font-size: 35px;
+    }
+    .vr-about-content .about-features .features-box h3 {
+        font-size: 12px;
+    }
+    .headphone-about-area {
+        padding-top: 50px;
+    }
+    .headphone-about-area .col-lg-6:first-child {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .headphone-about-area .col-lg-6:last-child {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .headphone-about-content {
+        text-align: center;
+    }
+    .headphone-about-content h2 {
+        font-size: 19px;
+    }
+    .headphone-about-content ul {
+        text-align: left;
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .headphone-about-content ul li {
+        font-size: 13px;
+        margin-top: 12px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .headphone-about-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .eye-glass-about-area {
+        padding-bottom: 20px;
+    }
+    .single-about-box .icon i::before {
+        font-size: 35px;
+    }
+    .single-about-box h3 {
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    .compatibility-area::before {
+        display: none;
+    }
+    .compatibility-content {
+        text-align: center;
+    }
+    .compatibility-content h2 {
+        font-size: 19px;
+    }
+    .compatibility-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .headphone-features-area {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .single-features {
+        margin-bottom: 30px;
+    }
+    .single-features i {
+        margin-bottom: 5px;
+    }
+    .single-features i::before {
+        font-size: 35px;
+    }
+    .single-features h3 {
+        font-size: 12px;
+    }
+    .discover-phone-content .all-phone {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: -25px;
+    }
+    .discover-phone-content .all-phone .single-phone {
+        -ms-flex: 0 0 33.333333%;
+        -webkit-box-flex: 0;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .discover-phone-content .all-phone .single-phone h4 {
+        font-size: 13px;
+    }
+    .vr-connect-features {
+        margin-top: 25px;
+        padding-top: 0;
+    }
+    .single-connect-features {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .single-connect-features h4 {
+        font-size: 13px;
+    }
+    .single-connect-features span {
+        font-size: 12px;
+    }
+    .headphone-design-image {
+        margin-top: 0;
+    }
+    .headphone-design-content {
+        margin-top: 45px;
+    }
+    .headphone-design-content h3 {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+    .headphone-design-slides.owl-theme .owl-nav [class*="owl-"] i::before {
+        font-size: 25px;
+    }
+    .headphone-design-slides.owl-theme:hover .owl-nav [class*="owl-"] {
+        left: 15px;
+    }
+    .headphone-design-slides.owl-theme:hover .owl-nav [class*="owl-"].owl-next {
+        left: auto;
+        right: 15px;
+    }
+    .photo-gallery-area .section-title {
+        margin-bottom: 25px;
+    }
+    .photo-gallery-slides.owl-theme .owl-nav [class*="owl-"] i::before {
+        font-size: 25px;
+    }
+    .photo-gallery-slides.owl-theme:hover .owl-nav [class*="owl-"] {
+        left: 15px;
+    }
+    .photo-gallery-slides.owl-theme:hover .owl-nav [class*="owl-"].owl-next {
+        left: auto;
+        right: 15px;
+    }
+    .vr-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .vr-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vr-specifications-content span {
+        font-size: 12px;
+    }
+    .vr-specifications-content h4 {
+        font-size: 13px;
+    }
+    .vr-specifications-content h4:not(:first-child) {
+        margin-top: 25px;
+    }
+    .vr-specifications-image {
+        margin-top: 35px;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headphone-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .headphone-specifications-area .align-items-center {
+        -ms-flex-align: unset !important;
+        -webkit-box-align: unset !important;
+        align-items: unset !important;
+    }
+    .headphone-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headphone-specifications-content .single-specifications {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .headphone-specifications-content .single-specifications span {
+        font-size: 12px;
+    }
+    .headphone-specifications-content .single-specifications h4 {
+        font-size: 13px;
+    }
+    .headphone-specifications-content .single-specifications:not(:first-child) {
+        margin-top: 25px;
+    }
+    .headphone-specifications-image {
+        margin-bottom: 40px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .eye-glass-specifications-image .single-image {
+        padding-right: 35px;
+        padding-bottom: 35px;
+    }
+    .eye-glass-specifications-image h2 {
+        display: none;
+    }
+    .eye-glass-specifications-image .owl-theme .owl-nav {
+        bottom: 10px;
+    }
+    .eye-glass-specifications-image .owl-theme .owl-nav [class*="owl-"] i::before {
+        font-size: 15px;
+    }
+    .eye-glass-specifications-content {
+        padding-left: 0;
+        margin-top: 35px;
+    }
+    .eye-glass-specifications-content h3 {
+        margin-bottom: 25px;
+        font-size: 19px;
+    }
+    .eye-glass-specifications-content ul li {
+        font-size: 13px;
+    }
+    .eye-glass-specifications-content ul li span {
+        float: unset;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .eye-glass-features-area::before {
+        height: 50%;
+    }
+    .eye-glass-features-tab .tabs {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .eye-glass-features-tab .tabs li {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .eye-glass-features-tab .tabs li a {
+        padding: 10px 17px;
+        font-size: 13px;
+    }
+    .eye-glass-features-tab .tabs li a i::before {
+        font-size: 35px;
+    }
+    .eye-glass-features-tab .tab_content {
+        padding: 25px;
+    }
+    .eye-glass-features-tab .eye-glass-features-content h3 {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    .eye-glass-features-tab .eye-glass-features-content span {
+        font-size: 13px;
+    }
+    .eye-glass-features-tab .eye-glass-features-video {
+        margin-top: 35px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .eye-glass-features-tab .eye-glass-features-video .video-btn {
+        bottom: 3px;
+    }
+    .eye-glass-features-tab .eye-glass-features-video h2 {
+        left: 1px;
+        font-size: 25px;
+    }
+    .explore-area {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .explore-content h2 {
+        font-size: 25px;
+    }
+    .feedback-item .client-profile {
+        margin-bottom: 15px;
+    }
+    .feedback-item p {
+        font-size: 14px;
+    }
+    .feedback-item .client-info {
+        margin-top: 20px;
+    }
+    .feedback-item .client-info h4 {
+        margin-bottom: 4px;
+        font-size: 16px;
+    }
+    .feedback-item .client-info span {
+        font-size: 12px;
+    }
+    .our-clients-content {
+        text-align: center;
+    }
+    .our-clients-content h2 {
+        font-size: 19px;
+    }
+    .our-clients-list {
+        padding-left: 0;
+        margin-top: 5px;
+    }
+    .our-clients-list .single-clients {
+        margin-top: 25px !important;
+    }
+    .our-clients-list .col-lg-4:nth-child(2) {
+        margin-top: 0;
+    }
+    .our-clients-list .col-lg-4:last-child {
+        overflow: hidden;
+    }
+    .our-clients-list .col-lg-4:last-child .single-clients {
+        float: left;
+        width: 50%;
+    }
+    .our-clients-list .col-lg-4:last-child .single-clients:first-child {
+        padding-right: 15px;
+    }
+    .our-clients-list .col-lg-4:last-child .single-clients:last-child {
+        padding-left: 15px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-title {
+        padding: 10px 35px 10px 20px;
+        font-size: 13px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-title i {
+        right: 15px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-content {
+        padding: 0 20px 10px 20px;
+        font-size: 13px;
+    }
+    .faq-image {
+        margin-top: 30px;
+    }
+    .shop-area {
+        padding-bottom: 20px;
+    }
+    .shop-area .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .shop-area .row .col-lg-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .shop-area .row .col-lg-6:first-child .single-products {
+        margin-top: 0;
+    }
+    .shop-area .row .col-lg-6:nth-child(4) .single-products,
+    .shop-area .row .col-lg-6:nth-child(6) .single-products,
+    .shop-area .row .col-lg-6:nth-child(8) .single-products,
+    .shop-area .row .col-lg-6:nth-child(10) .single-products,
+    .shop-area .row .col-lg-6:nth-child(12) .single-products,
+    .shop-area .row .col-lg-6:nth-child(14) .single-products,
+    .shop-area .row .col-lg-6:nth-child(16) .single-products,
+    .shop-area .row .col-lg-6:nth-child(18) .single-products,
+    .shop-area .row .col-lg-6:nth-child(20) .single-products,
+    .shop-area .row .col-lg-6:nth-child(22) .single-products,
+    .shop-area .row .col-lg-6:nth-child(24) .single-products,
+    .shop-area .row .col-lg-6:nth-child(26) .single-products {
+        margin-top: 0;
+    }
+    .single-products img {
+        padding-left: 25px;
+    }
+    .single-products h3 {
+        left: 15px;
+        font-size: 14px;
+    }
+    .navbar.navbar-style-two {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .page-title-area {
+        padding-top: 140px;
+        padding-bottom: 85px;
+    }
+    .page-title-area h2 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .shape-box1,
+    .shape-box3,
+    .shape-box4,
+    .shape-box5,
+    .shape-box7,
+    .shape-box8 {
+        display: none;
+    }
+    .blog-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .blog-area .col-lg-8,
+    .blog-area .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .single-blog-big-box .entry-post-content {
+        padding: 25px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -50px;
+    }
+    .single-blog-big-box .entry-post-content .entry-meta {
+        margin-bottom: 10px;
+    }
+    .single-blog-big-box .entry-post-content .entry-title h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .single-blog-box .entry-post-content .entry-meta {
+        margin-bottom: 5px;
+    }
+    .single-blog-box .entry-post-content .entry-meta ul li {
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 21px;
+    }
+    .single-blog-box .entry-post-content .entry-title h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .single-blog-box .entry-post-content .entry-title p {
+        margin-top: 10px;
+    }
+    .pagination-area {
+        margin-top: 10px;
+    }
+    .pagination-area .page-numbers {
+        width: 38px;
+        height: 38px;
+        margin: 0 2px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    .widget-area {
+        margin-top: 40px;
+    }
+    .widget-area .widget .widget-title {
+        font-size: 17px;
+    }
+    .widget-area .widget_busan_posts_thumb .item .thumb {
+        margin-right: 10px;
+    }
+    .widget-area .widget_busan_posts_thumb .item .info time {
+        font-size: 11px;
+    }
+    .widget-area .widget_busan_posts_thumb .item .info .title {
+        font-size: 14px;
+    }
+    .widget-area .widget_recent_comments ul li {
+        font-size: 13px;
+    }
+    .widget-area .widget_recent_entries ul li {
+        font-size: 13px;
+    }
+    .widget-area .widget_archive ul li {
+        font-size: 13px;
+    }
+    .widget-area .widget_categories ul li {
+        font-size: 13px;
+    }
+    .widget-area .widget_meta ul li {
+        font-size: 13px;
+    }
+    .widget-area .tagcloud a {
+        font-size: 12px !important;
+    }
+    .blog-details-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .blog-details-area .col-lg-8,
+    .blog-details-area .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-details .article-content .entry-meta {
+        margin-bottom: 12px;
+    }
+    .blog-details .article-content .entry-meta ul li {
+        font-size: 13px;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    .blog-details .article-content .entry-meta ul li::before {
+        right: -11px;
+        width: 4px;
+    }
+    .blog-details .article-content .entry-meta ul li i {
+        font-size: 14px;
+    }
+    .blog-details .article-content h3 {
+        font-size: 18px;
+    }
+    .blog-details .article-content .wp-block-gallery.columns-3 {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .blog-details .article-content .wp-block-gallery.columns-3 li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .blog-details .article-footer {
+        text-align: center;
+    }
+    .blog-details .article-footer .article-tags {
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .blog-details .article-footer .article-share {
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .blog-details .article-footer .article-share .social {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .blog-details .article-footer .article-share .social li a {
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        font-size: 12px;
+    }
+    blockquote,
+    .blockquote {
+        padding: 20px !important;
+    }
+    blockquote p,
+    .blockquote p {
+        font-size: 16px;
+    }
+    .comments-area .comment-body {
+        padding-left: 0;
+    }
+    .comments-area .comments-title {
+        font-size: 18px;
+    }
+    .comments-area .comment-author {
+        font-size: 14px;
+    }
+    .comments-area .comment-author .avatar {
+        height: 50px;
+        left: 0;
+        position: relative;
+        width: 50px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .comments-area .comment-respond .comment-reply-title {
+        font-size: 18px;
+    }
+    .comments-area .comment-respond .comment-form-author {
+        width: 100%;
+        padding-right: 0;
+    }
+    .comments-area .comment-respond .comment-form-email {
+        padding-left: 0;
+        width: 100%;
+    }
+    .comments-area .comment-respond .form-submit input {
+        padding: 10px 25px 8px;
+        font-size: 12px;
+    }
+    .contact-info .title h2 {
+        font-size: 19px;
+    }
+    #contactForm {
+        margin-top: 25px;
+    }
+    .footer-area {
+        padding-top: 50px;
+    }
+    .single-footer-widget {
+        margin-bottom: 30px;
+    }
+    .single-footer-widget h3 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .single-footer-widget .support-list li {
+        font-size: 13px;
+    }
+    .single-footer-widget .quick-links-list li {
+        font-size: 13px;
+    }
+    .single-footer-widget .item .info .title {
+        font-size: 13px;
+    }
+    .single-footer-widget .item .info time {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    .single-footer-widget .newsletter-content span {
+        font-size: 13px;
+    }
+    .single-footer-widget .newsletter-content p {
+        font-size: 12px;
+    }
+    .copyright-area {
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .copyright-area ul {
+        text-align: center;
+        margin-top: 12px;
+    }
+    .go-top {
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        right: 10px;
+    }
+    .go-top i::before {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .btn {
+        font-size: 14px;
+    }
+    .ptb-120 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-title {
+        max-width: 540px;
+        margin-bottom: 50px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .navbar.is-sticky {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 5px 10px;
+        outline: 0;
+        border-color: #384656;
+        border-radius: 0;
+    }
+    .navbar-light .navbar-toggler:focus {
+        -webkit-box-shadow: unset !important;
+        box-shadow: unset !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .navbar-light .navbar-nav {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child a {
+        margin-top: 0;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child a {
+        margin-bottom: 0;
+    }
+    .navbar-light .others-options {
+        background-color: #ffffff;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-light .others-options .default-btn {
+        background-color: #384656;
+        color: #ffffff;
+    }
+    .navbar-light .others-options .default-btn:hover {
+        background-color: #58fba8;
+        color: #384656;
+    }
+    .navbar-light.is-sticky .navbar-nav {
+        border: 1px solid #eeeeee;
+        border-bottom: none;
+    }
+    .navbar-light.is-sticky .others-options {
+        border: 1px solid #eeeeee;
+        border-top: none;
+    }
+    .vr-main-banner {
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main-banner-content span {
+        font-size: 15px;
+    }
+    .main-banner-content h1 {
+        margin-bottom: 13px;
+        font-size: 37px;
+    }
+    .main-banner-content .btn {
+        margin-top: 20px;
+    }
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .banner-image img:nth-child(1),
+    .banner-image img:nth-child(2),
+    .banner-image img:nth-child(3),
+    .banner-image img:nth-child(4) {
+        display: none;
+    }
+    .banner-image img:nth-child(5) {
+        display: block;
+    }
+    .vr-main-banner-two {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+    .vr-main-banner-two .banner-image {
+        text-align: center;
+    }
+    .vr-main-banner-two .banner-image img {
+        display: block !important;
+        right: 0 !important;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .hero-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero-content span {
+        font-size: 15px;
+    }
+    .hero-content h1 {
+        margin-bottom: 13px;
+        font-size: 37px;
+    }
+    .hero-content .btn {
+        margin-top: 20px;
+    }
+    .shape1,
+    .shape2,
+    .shape3,
+    .shape4,
+    .shape5,
+    .shape6,
+    .shape7,
+    .shape8,
+    .shape9,
+    .shape10,
+    .shape11 {
+        display: none;
+    }
+    .dot-shape1,
+    .dot-shape2,
+    .dot-shape3,
+    .dot-shape4,
+    .dot-shape5,
+    .dot-shape6 {
+        display: none;
+    }
+    .headphone-main-banner {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+    .headphone-banner-image {
+        margin-top: 40px;
+    }
+    .eye-glass-main-banner {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+    .eye-glass-main-banner .container {
+        max-width: 720px;
+    }
+    .eye-glass-hero-content {
+        text-align: center;
+    }
+    .eye-glass-hero-content span {
+        font-size: 15px;
+    }
+    .eye-glass-hero-content h1 {
+        margin-bottom: 13px;
+        font-size: 33px;
+    }
+    .eye-glass-hero-content .btn {
+        margin-top: 20px;
+    }
+    .eye-glass-banner-image {
+        margin-top: 70px;
+    }
+    .eye-glass-banner-image img:nth-child(2) {
+        top: -150px;
+        max-width: 65%;
+    }
+    .about-area .col-lg-6:first-child {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .about-area .col-lg-6:last-child {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .vr-about-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .vr-about-content h2 {
+        font-size: 24px;
+    }
+    .vr-about-content p {
+        max-width: 548px;
+        font-size: 13.5px;
+        margin: 0 auto;
+    }
+    .vr-about-content .about-features {
+        margin-top: 0;
+    }
+    .vr-about-content .about-features .features-box {
+        border: none !important;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .vr-about-content .about-features .features-box i::before {
+        font-size: 45px;
+    }
+    .vr-about-content .about-features .features-box h3 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .headphone-about-area {
+        padding-top: 80px;
+    }
+    .headphone-about-area .col-lg-6:first-child {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .headphone-about-area .col-lg-6:last-child {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .headphone-about-content h2 {
+        font-size: 24px;
+    }
+    .headphone-about-content ul li {
+        font-size: 14px;
+    }
+    .headphone-about-image {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .eye-glass-about-area {
+        padding-bottom: 50px;
+    }
+    .single-about-box h3 {
+        font-size: 18px;
+    }
+    .compatibility-area::before {
+        height: 127%;
+        -webkit-transform: skewY(155deg);
+        transform: skewY(155deg);
+    }
+    .compatibility-content h2 {
+        font-size: 24px;
+    }
+    .compatibility-image {
+        margin-top: 35px;
+    }
+    .headphone-features-area {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .single-features {
+        margin-bottom: 30px;
+    }
+    .single-features i::before {
+        font-size: 40px;
+    }
+    .single-features h3 {
+        font-size: 14px;
+    }
+    .headphone-design-image {
+        margin-top: -450px;
+    }
+    .headphone-design-content {
+        margin-top: 70px;
+    }
+    .headphone-design-content h3 {
+        font-size: 24px;
+    }
+    .discover-phone-content .all-phone {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .discover-phone-content .all-phone .single-phone {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .discover-phone-content .all-phone .single-phone h4 {
+        font-size: 13px;
+    }
+    .single-connect-features h4 {
+        font-size: 15px;
+    }
+    .single-connect-features span {
+        font-size: 13px;
+    }
+    .eye-glass-features-tab .tabs li a {
+        padding: 20px 30px;
+        font-size: 13px;
+    }
+    .eye-glass-features-tab .tabs li a i::before {
+        font-size: 35px;
+    }
+    .eye-glass-features-tab .tab_content {
+        padding: 30px;
+    }
+    .eye-glass-features-tab .eye-glass-features-content h3 {
+        font-size: 18px;
+    }
+    .eye-glass-features-tab .eye-glass-features-content span {
+        font-size: 14px;
+    }
+    .eye-glass-features-tab .eye-glass-features-video {
+        margin-top: 40px;
+    }
+    .vr-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .vr-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vr-specifications-content h4 {
+        font-size: 14px;
+    }
+    .vr-specifications-content span {
+        font-size: 13px;
+    }
+    .vr-specifications-image {
+        margin-top: 40px;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headphone-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .headphone-specifications-area .align-items-center {
+        -ms-flex-align: unset !important;
+        -webkit-box-align: unset !important;
+        align-items: unset !important;
+    }
+    .headphone-specifications-content {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headphone-specifications-content .single-specifications {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .headphone-specifications-content .single-specifications h4 {
+        font-size: 14px;
+    }
+    .headphone-specifications-content .single-specifications span {
+        font-size: 13px;
+    }
+    .headphone-specifications-image {
+        margin-bottom: 45px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-title {
+        font-size: 15px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-content {
+        font-size: 13px;
+    }
+    .shop-area {
+        padding-bottom: 50px;
+    }
+    .shop-area .row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-products h3 {
+        left: 20px;
+        top: 0;
+        font-size: 16px;
+    }
+    .single-products img {
+        padding-left: 35px;
+    }
+    .explore-content h2 {
+        font-size: 30px;
+    }
+    .feedback-item p {
+        font-size: 16px;
+    }
+    .eye-glass-specifications-image h2 {
+        display: none;
+    }
+    .eye-glass-specifications-image .single-image {
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+    .eye-glass-specifications-image .owl-theme .owl-nav {
+        bottom: 14px;
+    }
+    .eye-glass-specifications-content {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .eye-glass-specifications-content h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .eye-glass-specifications-content ul li {
+        font-size: 14px;
+    }
+    .eye-glass-specifications-content ul li span {
+        width: 28%;
+        font-size: 15px;
+    }
+    .photo-gallery-area .section-title {
+        margin-bottom: 35px;
+    }
+    .our-clients-content h2 {
+        font-size: 24px;
+    }
+    .our-clients-list {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .single-blog-big-box .entry-post-content .entry-title h3 {
+        font-size: 18px;
+    }
+    .single-blog-box .entry-post-content .entry-title h3 {
+        font-size: 18px;
+    }
+    .widget-area {
+        margin-top: 40px;
+    }
+    .widget-area .widget .widget-title {
+        font-size: 18px;
+    }
+    .page-title-area h2 {
+        font-size: 22px;
+    }
+    .shape-box1,
+    .shape-box3,
+    .shape-box4,
+    .shape-box5,
+    .shape-box7,
+    .shape-box8 {
+        display: none;
+    }
+    .contact-info .title h2 {
+        font-size: 24px;
+    }
+    #contactForm {
+        margin-top: 25px;
+    }
+    .faq-image {
+        margin-top: 40px;
+    }
+    .footer-area {
+        padding-top: 80px;
+    }
+    .single-footer-widget {
+        margin-bottom: 30px;
+    }
+    .single-footer-widget h3 {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .single-footer-widget .support-list li {
+        font-size: 13px;
+    }
+    .single-footer-widget .quick-links-list li {
+        font-size: 13px;
+    }
+    .single-footer-widget .item .info .title {
+        font-size: 14px;
+    }
+    .single-footer-widget .item .info time {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    .single-footer-widget .newsletter-content span {
+        font-size: 14px;
+    }
+    .copyright-area {
+        margin-top: 50px;
+    }
+    .copyright-area p {
+        font-size: 13px;
+    }
+    .copyright-area ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar .is-sticky {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .main-banner-content h1 {
+        font-size: 45px;
+    }
+    .main-banner-content span {
+        font-size: 16px;
+    }
+    .banner-image {
+        text-align: center;
+    }
+    .banner-image img:nth-child(1),
+    .banner-image img:nth-child(2),
+    .banner-image img:nth-child(3),
+    .banner-image img:nth-child(4) {
+        display: none;
+    }
+    .banner-image img:nth-child(5) {
+        display: block;
+    }
+    .vr-main-banner-two .banner-image {
+        text-align: center;
+    }
+    .vr-main-banner-two .banner-image img {
+        display: block !important;
+        right: 0 !important;
+    }
+    .hero-content h1 {
+        font-size: 45px;
+    }
+    .hero-content span {
+        font-size: 16px;
+    }
+    .shape1,
+    .shape2,
+    .shape3,
+    .shape4,
+    .shape5,
+    .shape6,
+    .shape7,
+    .shape8,
+    .shape9,
+    .shape10,
+    .shape11 {
+        display: none;
+    }
+    .dot-shape1,
+    .dot-shape2,
+    .dot-shape3,
+    .dot-shape4,
+    .dot-shape5,
+    .dot-shape6 {
+        display: none;
+    }
+    .eye-glass-hero-content h1 {
+        font-size: 35px;
+    }
+    .eye-glass-hero-content span {
+        font-size: 16px;
+    }
+    .eye-glass-banner-image img:nth-child(2) {
+        top: -165px;
+    }
+    .vr-about-content h2 {
+        font-size: 27px;
+    }
+    .vr-about-content .about-features .features-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vr-about-content .about-features .features-box i::before {
+        font-size: 40px;
+    }
+    .vr-about-content .about-features .features-box h3 {
+        font-size: 14px;
+    }
+    .headphone-about-content h2 {
+        font-size: 27px;
+    }
+    .headphone-about-content ul li {
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 27px;
+    }
+    .compatibility-area::before {
+        height: 129%;
+        content: '';
+        -webkit-transform: skewY(159deg);
+        transform: skewY(159deg);
+    }
+    .compatibility-content h2 {
+        font-size: 27px;
+    }
+    .eye-glass-features-area::before {
+        height: 41.5%;
+    }
+    .eye-glass-features-tab .tabs li a {
+        padding: 25px 55px;
+        font-size: 15px;
+    }
+    .our-clients-content h2 {
+        font-size: 27px;
+    }
+    .eye-glass-specifications-content h3 {
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+    .eye-glass-specifications-content ul li {
+        font-size: 13px;
+    }
+    .eye-glass-specifications-content ul li span {
+        width: 36%;
+        font-size: 14px;
+    }
+    .discover-phone-content .all-phone {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headphone-design-content {
+        margin-top: 80px;
+    }
+    .headphone-design-content h3 {
+        font-size: 27px;
+    }
+    .feedback-item p {
+        font-size: 16px;
+    }
+    .feedback-item .client-info {
+        margin-top: 20px;
+    }
+    .our-clients-list {
+        padding-left: 50px;
+    }
+    .vr-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .vr-specifications-content {
+        margin-top: 0;
+    }
+    .vr-specifications-content h4:not(:first-child) {
+        margin-top: 30px;
+    }
+    .headphone-specifications-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .shop-area .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .eye-glass-specifications-image h2 {
+        right: -105%;
+    }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1350px) {
+    .banner-image {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .banner-image img:nth-child(1),
+    .banner-image img:nth-child(2),
+    .banner-image img:nth-child(3),
+    .banner-image img:nth-child(4) {
+        display: none;
+    }
+    .banner-image img:nth-child(5) {
+        display: block;
+    }
+    .vr-main-banner-two .banner-image {
+        text-align: center;
+    }
+    .vr-main-banner-two .banner-image img {
+        display: block !important;
+        right: 0 !important;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/*# sourceMappingURL=responsive.css.map */

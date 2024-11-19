@@ -1,0 +1,38 @@
+{
+  "_sweetalert2.all-DCixwSH0.js": {
+    "file": "assets/sweetalert2.all-DCixwSH0.js",
+    "name": "sweetalert2.all"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BjmfeVMd.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DPwrkJyP.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_sweetalert2.all-DCixwSH0.js"
+    ]
+  },
+  "resources/js/functions.js": {
+    "file": "assets/functions-D1PN9RJe.js",
+    "name": "functions",
+    "src": "resources/js/functions.js",
+    "isEntry": true
+  },
+  "resources/js/modules/services/form/index.js": {
+    "file": "assets/index-C4iJeCm8.js",
+    "name": "index",
+    "src": "resources/js/modules/services/form/index.js",
+    "isEntry": true,
+    "imports": [
+      "_sweetalert2.all-DCixwSH0.js"
+    ],
+    "css": [
+      "assets/index-CZHiDREC.css"
+    ]
+  }
+}

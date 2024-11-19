@@ -1,0 +1,3 @@
+- Cập nhật response api/v2?action=balance
+- new response: {"balancef":"100.000","balance":100000,"currency":"VND"}
+- Sửa lỗi hiển thị sai số dư thực [bấm cập nhật lại số dư]

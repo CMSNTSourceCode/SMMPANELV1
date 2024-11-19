@@ -1,0 +1,1 @@
+- Sửa lỗi "Cannot read properties of undefined (reading 'id')" ở from mới

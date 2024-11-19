@@ -1,0 +1,114 @@
+/*
+-- Mobile Header
+==========================================================
+*/
+
+.miwlo-header-area-mobile {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 30, 0.06);
+}
+
+.miwlo-header-mobile .col>ul>li:last-child {
+    float: right;
+    margin: 19px 0;
+}
+
+.miwlo-header-mobile .col>ul>li {
+    display: inline-block;
+}
+
+.miwlo-header-mobile a.mobile-logo {
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.miwlo-header-mobile a.mobile-logo img {
+    width: 70px;
+}
+
+.miwlo-header-mobile ul li a {
+    text-decoration: none;
+}
+
+.miwlo-header-area-mobile .slinky-theme-default {
+    background-color: #FFF;
+}
+
+.miwlo-header-mobile .col ul li ul li a:not(.back) {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding: .6em 1em;
+    transition: all 0.4s ease-in-out;
+}
+
+.bar {
+    background-color: #333;
+    height: 2px;
+    width: 20px;
+    display: block;
+}
+
+.bar:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.bar:first-child {
+    width: 30px;
+}
+
+.bar:last-child {
+    width: 10px;
+}
+
+.slinky-theme-default .back::before,
+.slinky-theme-default .next::after {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+}
+
+.miwlo-header-area-mobile .col {
+    background-color: transparent;
+    min-height: 90px;
+}
+
+.miwlo-header-area-mobile .col ul>li:last-child>a:after {
+    display: none;
+}
+
+.slinky-theme-default a:not(.back):hover {
+    background: transparent;
+    color: #6513e1;
+}
+
+.slinky-theme-default .back:before {
+    padding: 1em 0;
+    left: 16px;
+}
+
+.slinky-theme-default .next::after {
+    float: right;
+}
+
+.miwlo-header-area-mobile .mobile-header-btn-wrapper {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.miwlo-header-area-mobile .mobile-header-btn-wrapper .miwlo-btn-pill {
+    color: #FFF;
+    padding: 14px 28px;
+    display: inline-block;
+}

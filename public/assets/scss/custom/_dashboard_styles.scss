@@ -1,0 +1,251 @@
+.counter-icon {
+    margin-block-end: 1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 24px;
+}
+
+.icon-rocket:before {
+    content: "\e05c";
+}
+
+.number-font {
+    font-weight: 600 !important;
+}
+
+.activity1 {
+    .activity-blog:last-child {
+        &::before {
+            border: none !important;
+        }
+    }
+}
+
+.activity-blog:before {
+    content: "";
+    position: absolute;
+    inset-block-start: 45px;
+    inset-block-end: 0;
+    inset-inline-start: 23px;
+    border-inline-start: 1px solid $default-border;
+}
+
+.activity-blog {
+    display: flex;
+    position: relative;
+    min-height: 70px;
+}
+
+.activity-img {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+
+.activity-details {
+    margin-inline-start: 15px;
+    width: 80%;
+    margin-block-start: 6px;
+}
+
+.browser-stats .logo-icon {
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.browser-stats {
+    min-height: 71px;
+    display: flex;
+}
+
+.legend {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-inline-end: 5px;
+    margin-top: 6px;
+}
+
+.task-list {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0px 0 0;
+    color: $default-text-color;
+}
+
+.task-list:before {
+    content: "";
+    position: absolute;
+    inset-block-start: 4px;
+    inset-block-end: 0;
+    height: 90%;
+    inset-inline-start: 15px;
+    border-inline-start: 1px solid $default-border;
+}
+
+.task-list li {
+    position: relative;
+}
+
+.task-list li {
+    margin-block-end: 26px;
+    padding-inline-start: 55px;
+    position: relative;
+}
+
+.task-list li .task-icon {
+    position: absolute;
+    inset-inline-start: 10px;
+    inset-block-start: 5px;
+    border-radius: 50%;
+    padding: 2px;
+    width: 12px;
+    height: 12px;
+    z-index: 2;
+}
+
+[dir=rtl] {
+    .deals-table {
+
+        .table {
+            -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+        }
+    }
+
+    .ribbon span {
+        -webkit-transform: rotate(314deg);
+    }
+
+    #total-transactions .apexcharts-yaxis-texts-g {
+        translate: -10px;
+    }
+
+    .pagination-style-1 {
+        .ri-arrow-right-s-line:before {
+            content: "\ea64";
+        }
+
+        .ri-arrow-left-s-line:before {
+            content: "\ea6e";
+        }
+    }
+}
+
+.offcanvas.offcanvas-end.offcanvas-sidebar {
+    max-width: 329px;
+}
+
+.offcanvas-sidebar {
+    .profile-status {
+        content: "";
+        position: absolute;
+        inset-block-end: 0;
+        inset-inline-end: 117px;
+        width: 10px;
+        height: 10px;
+        background-color: #00d48f;
+        border-radius: 100%;
+        inset-block-start: 73px;
+        border: 2px solid #fff;
+    }
+
+    .user-pro-body img {
+        display: block;
+        margin: 0 auto 0px;
+        border: 2px solid $primary !important;
+        box-shadow: 0px 5px 5px 0px rgba(44, 44, 44, 0.2);
+        padding: 3px;
+        background: #e8e9f5;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-block-end: 1.5rem;
+    }
+
+    .tab-heading {
+        .card-header {
+            background-color: $primary !important;
+            color: $white;
+        }
+    }
+
+    .nav-tabs {
+        .nav-item {
+            margin-inline-end: 0.2rem
+        }
+    }
+}
+
+.offcanvas-sidebar .tab-content i {
+    font-size: 18px !important;
+    line-height: 2;
+    background-color: $primary;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+.offcanvas-sidebar .user-pro-body img {
+    display: block;
+    margin: 0 auto 0px;
+    border: 2px solid var(--primary-bg-color);
+    box-shadow: 0px 5px 5px 0px rgba(44, 44, 44, 0.2);
+    padding: 3px;
+    background: #e8e9f5;
+}
+
+.offcanvas-sidebar .user-pro-body .profile-status {
+    top: 52px;
+}
+
+.offcanvas-sidebar {
+    .nav-style-1 {
+        .nav-link {
+            i {
+                margin-inline-end: 4px !important;
+                display: inline-flex;
+            }
+        }
+    }
+}
+
+#total-transactions {
+    .apexcharts-yaxis-texts-g {
+        translate: -17px;
+    }
+}
+
+@media (min-width: 1840px) {
+    [data-nav-layout="vertical"] {
+        #total-transactions {
+            width: 1112px !important;
+
+            .apexcharts-canvas {
+                width: 1112px !important
+            }
+        }
+    }
+}
+
+// #totaltransactions {
+//     .apexcharts-grid line {
+//         stroke: transparent;
+//     }
+// }

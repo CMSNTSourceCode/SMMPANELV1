@@ -1,0 +1,3587 @@
+{
+    "time": "2024-07-05T16:01:48.691098Z",
+    "data": [
+        {
+            "service": 1,
+            "name": "T\u00e0i Nguy\u00ean Via, Page [ \u1ed4n \u0110\u1ecbnh ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "8.95",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 2,
+            "name": "[ Clone Nu\u00f4i ] [ Nh\u1eadp ID] [ Ch\u1eadm ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "12.5",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 3,
+            "name": "Ultra Fast Speed 50K\/Day ] Never Drop",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.98",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 4,
+            "name": "[ 5K\/Day ] | 2 Days Auto Refill \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "7.9",
+            "min": "10",
+            "max": "1000"
+        },
+        {
+            "service": 5,
+            "name": "[ Low Drop ] [ No Refill ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "9",
+            "min": "500",
+            "max": "3500"
+        },
+        {
+            "service": 6,
+            "name": "[ 30K+\/Day ] | 30 Days Refill Only Possible For Private Links \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "28",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 7,
+            "name": "Sub Page | B\u1ea3o H\u00e0nh 30 Ng\u00e0y",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "30.9",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 8,
+            "name": "Sub Page Ch\u1ec9 H\u1ed7 Tr\u1ee3 Pro5 | B\u1ea3o h\u00e0nh 50 ng\u00e0y \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "4.79",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 9,
+            "name": "Max 1B | Cheapest In The World",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0109",
+            "min": "100",
+            "max": "2147483647"
+        },
+        {
+            "service": 22,
+            "name": "[Max: 100K] [Start Time: 0-5 Mins] \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "10.9",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 23,
+            "name": "Like\ud83d\udc4d| Max 50k | T\u00e0i Nguy\u00ean \u0110a Qu\u1ed1c Gia",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "7.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 24,
+            "name": "Like\ud83d\udc4d| Clone Vi\u1ec7t",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "9",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 27,
+            "name": "Max 900 M | BestPrice | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0139",
+            "min": "500",
+            "max": "900000000"
+        },
+        {
+            "service": 28,
+            "name": "Max 975M | Cheapest | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0129",
+            "min": "100",
+            "max": "975000000"
+        },
+        {
+            "service": 29,
+            "name": "Tr\u00e0i nguy\u00ean Clone, Page | B\u1ea3o h\u00e0nh 7 ng\u00e0y",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "4.49",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 30,
+            "name": "[ Max Unlimited ] | Life Time Guaranteed \u26d4\u267b\ufe0f\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0079",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 31,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Ch\u1eadm | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "116",
+            "min": "20",
+            "max": "10000"
+        },
+        {
+            "service": 32,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Trung B\u00ecnh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "196",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 33,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 \u1ed4n \u0110\u1ecbnh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "220",
+            "min": "500",
+            "max": "10000"
+        },
+        {
+            "service": 34,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "356",
+            "min": "500",
+            "max": "10000"
+        },
+        {
+            "service": 35,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Ch\u1eadm | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "15",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 36,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Trung B\u00ecnh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "42",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 37,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "196",
+            "min": "500",
+            "max": "10000"
+        },
+        {
+            "service": 38,
+            "name": "[ \ud83c\udf0d Worldwide ] | Drop 0-0% | Life Time Guaranteed \u267b\ufe0f | Day 50K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "14",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 39,
+            "name": "[ Worldwide \ud83c\udf0d ] [ Like + View ] | 30 Days \u267b\ufe0f | Day 100K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "5.75",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 40,
+            "name": "[ Worldwide \ud83c\udf0d ] Max 500K | Days 5-20K | 0-15 Min \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.6",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 41,
+            "name": "[ Worldwide \ud83c\udf0d ] Max 1M | Days 5-20K | 0-15 Min \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "14.4",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 42,
+            "name": "10K\/Day | ND | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "1.9",
+            "min": "50",
+            "max": "2147483647"
+        },
+        {
+            "service": 43,
+            "name": "5k\/Day | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0039",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 44,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Trung B\u00ecnh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "140",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 45,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "236",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 46,
+            "name": "World | Max 200K \ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "6.5",
+            "min": "50",
+            "max": "300000"
+        },
+        {
+            "service": 47,
+            "name": "[ R15 ] [ Old Accounts ] \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.7",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 48,
+            "name": "[ R60 ] [ Old Accounts ] \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.9",
+            "min": "100",
+            "max": "5000000"
+        },
+        {
+            "service": 49,
+            "name": "\ud83c\udf0d Instant | 20k\/Day | Drop rate 0-7% | R365 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "6.6",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 50,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Trung B\u00ecnh| NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "100",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 51,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "156",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 52,
+            "name": "World | Max 300K | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.55",
+            "min": "10",
+            "max": "300000"
+        },
+        {
+            "service": 53,
+            "name": "World | Bot | Instant | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.49",
+            "min": "10",
+            "max": "500000"
+        },
+        {
+            "service": 54,
+            "name": "World | Instant | Recommend | R\ua74f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.79",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 55,
+            "name": "T\u1ed1c \u0110\u1ed9 \u1ed4n \u0110\u1ecbnh | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.5",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 56,
+            "name": "[ Love \u2764\ufe0f ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 57,
+            "name": "[ Haha \ud83d\ude02 ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 58,
+            "name": "[ Wow \ud83d\ude2f ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 59,
+            "name": "[ Sad \ud83d\ude22 ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 60,
+            "name": "[ Angry \ud83d\ude21 ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 61,
+            "name": "[ Care \ud83d\ude0a ] [ 2-5k\/D ] [ No Refill ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.9",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 62,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 \u1ed4n \u0110\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "3.2",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 63,
+            "name": "Max 100 M | R365",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.116",
+            "min": "500",
+            "max": "2000000000"
+        },
+        {
+            "service": 64,
+            "name": "High Quality | View 10s | Max 1M",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "19.8",
+            "min": "550",
+            "max": "1000000"
+        },
+        {
+            "service": 65,
+            "name": "Reel\/Video | 10 Sec | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "19",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 66,
+            "name": "Reel\/Video | 15 Sec | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "19.8",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 67,
+            "name": "Reel\/Video | 30 Sec | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "21.8",
+            "min": "500",
+            "max": "2147483647"
+        },
+        {
+            "service": 68,
+            "name": "Reel\/Video | 1 Mins | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "25.8",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 69,
+            "name": "Reel\/Video | 3 Mins | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "41.8",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 74,
+            "name": "Chia s\u1ebb \u1ea3o | Min 50K | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "1.39",
+            "min": "50000",
+            "max": "1000000"
+        },
+        {
+            "service": 75,
+            "name": "Last 1 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "0.0035",
+            "min": "100",
+            "max": "50000000"
+        },
+        {
+            "service": 76,
+            "name": "Last 5 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "0.849",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 77,
+            "name": "Last 10 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "1.9",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 78,
+            "name": "Last 20 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.49",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 79,
+            "name": "Last 50 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "6.9",
+            "min": "10",
+            "max": "10000000"
+        },
+        {
+            "service": 80,
+            "name": "Last 100 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "13.9",
+            "min": "10",
+            "max": "10000000"
+        },
+        {
+            "service": 81,
+            "name": "Last 500 Post | Instant | 100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "24.9",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 82,
+            "name": "Ng\u01b0\u1eddi Th\u1eadt | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "156312156",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 83,
+            "name": "Ng\u01b0\u1eddi Th\u1eadt B\u1ea5m Tay",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "236472236",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 84,
+            "name": "Ng\u01b0\u1eddi VI\u1ec7t | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Lazada",
+            "rate": "476952476",
+            "min": "10",
+            "max": "3000"
+        },
+        {
+            "service": 85,
+            "name": "[ Max 10K ] | NR \u26a0\ufe0f | SuperInstant | Day 10K \u26a1\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "7.95",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 86,
+            "name": "[ Max 50K ] | NR \u26a0\ufe0f | SuperInstant | Day 50K \u26a1\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "8.95",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 87,
+            "name": "5K+ Per Hours | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "240059399.58",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 88,
+            "name": "10K+ Per Day | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "116011238807365",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 89,
+            "name": "T\u00e0i Nguy\u00ean Clone + Page | SALE \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "16.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 90,
+            "name": "Max 500K | Days 50-100K | 0-15 Min \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "12.9",
+            "min": "10",
+            "max": "500000"
+        },
+        {
+            "service": 91,
+            "name": "Instant Start | Day 50K \u26a1\u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "29.8",
+            "min": "10",
+            "max": "500000"
+        },
+        {
+            "service": 92,
+            "name": "100k\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.0099",
+            "min": "100",
+            "max": "2147483647"
+        },
+        {
+            "service": 93,
+            "name": "Profile Clicks | Instant | 1M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.19",
+            "min": "10",
+            "max": "50000000"
+        },
+        {
+            "service": 94,
+            "name": "[Max 50K] [Instant] [25K\/Day] [No Refill]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "7.9",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 95,
+            "name": "[Max 100K] [Instant] [25K\/Day] [No Refill]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "8.9",
+            "min": "50",
+            "max": "10000000"
+        },
+        {
+            "service": 96,
+            "name": "[Max 50K] [Instant] [10K\/Day] [No Refill]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "9.9",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 97,
+            "name": "[Max 1M] [Instant] [10K\/Day] [\u267b\ufe0f Refill : 12 Days]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "16.5",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 98,
+            "name": "[Max 1M] [Instant] [25K\/Day] [\u267b\ufe0f Refill : 30 Days]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "18.5",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 99,
+            "name": "2-5K\/Day |  Auto Refill 30 Day  \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "27.5",
+            "min": "10",
+            "max": "40000"
+        },
+        {
+            "service": 100,
+            "name": "World | Instant | 20k\/Day | ND | R60 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "39",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 101,
+            "name": "[ \u00cdt ho\u1eb7c kh\u00f4ng t\u1ee5t \u267b\ufe0f ] | 10K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "49",
+            "min": "500",
+            "max": "90000"
+        },
+        {
+            "service": 102,
+            "name": "Channel\/Group Members | MQ 100K | R30\u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "46.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 103,
+            "name": "T\u1ec9 l\u1ec7 gi\u1ea3m 0 - 1% \u267b\ufe0f | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "37.9",
+            "min": "100",
+            "max": "30000"
+        },
+        {
+            "service": 104,
+            "name": "World |  Instant | 20-30k\/Day | ND | Max 80K | R60\u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "45",
+            "min": "500",
+            "max": "70000"
+        },
+        {
+            "service": 105,
+            "name": "\ud83c\udf0d100k\/Day | ND | R30\u267b\ufe0f| Fast \ud83d\ude80\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "45",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 107,
+            "name": "\ud83c\udf0d 30-40k\/Day | Drop rate 0-5% | R\ua74f \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "6.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 108,
+            "name": "\ud83c\udf0d 20-30K\/Day | Drop rate 0-7% | R365 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.9",
+            "min": "50",
+            "max": "5000000"
+        },
+        {
+            "service": 109,
+            "name": "\ud83c\udf0d50-70K\/Day | Drop rate 0-3% | R60 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "8.9",
+            "min": "10",
+            "max": "5000000"
+        },
+        {
+            "service": 111,
+            "name": "World | Instant | 2K\/Days | Max 2500 | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "19",
+            "min": "10",
+            "max": "2500"
+        },
+        {
+            "service": 112,
+            "name": "MQ 10K | Instant Start | Speed 5K\/Days | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "32.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 113,
+            "name": "World | HQ | Instant | 5k-10k\/Day | R15",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "71.8",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 114,
+            "name": "World | HQ | Instant | 10k-20k\/Day | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "80",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 115,
+            "name": "World | Instant | 2K\/Days | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "19",
+            "min": "5",
+            "max": "2500"
+        },
+        {
+            "service": 116,
+            "name": "World | Instant | 5k-10k\/Day | AR30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "3617.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 117,
+            "name": "World | HQ | Instant | 10k-20k\/Day | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "49",
+            "min": "50",
+            "max": "20000"
+        },
+        {
+            "service": 119,
+            "name": "[ Love ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 120,
+            "name": "[ Haha ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 121,
+            "name": "[ Care ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 122,
+            "name": "[ Wow ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 123,
+            "name": "[ Sad ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 124,
+            "name": "[ Angry ] | High Quality",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 125,
+            "name": "World | High Quality | 2k-5k | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "149",
+            "min": "10",
+            "max": "217545811"
+        },
+        {
+            "service": 126,
+            "name": "World | High Quality | 10k\/Day | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Threads",
+            "rate": "199",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 127,
+            "name": "T\u00e0i nguy\u00ean CLone, Via \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "23.5",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 129,
+            "name": "Premium Membership | Paid Unlock For 1 Year Package - Unlimited Editing Future | NR",
+            "type": "Default",
+            "category": "Other Services",
+            "rate": "3.9",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 130,
+            "name": "[ Cheapest ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.29",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 131,
+            "name": "[ Fast ] [ Instant ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.9",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 132,
+            "name": "[ Instant Done ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.55",
+            "min": "100",
+            "max": "4000000"
+        },
+        {
+            "service": 133,
+            "name": "[ Fast ] [ 5M \/ day ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.95",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 137,
+            "name": "T\u00e0i Nguy\u00ean Via, Clone, Page Pro5 | T\u1ed1c \u0110\u1ed9 Nhanh  | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "8.9",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 138,
+            "name": "High Quality | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "59",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 141,
+            "name": "Detail Click | MAIN PROVIDER",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.0049",
+            "min": "50",
+            "max": "1000000000"
+        },
+        {
+            "service": 142,
+            "name": "Profile Click | MAIN PROVIDER | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.0049",
+            "min": "50",
+            "max": "1000000000"
+        },
+        {
+            "service": 144,
+            "name": "VietNam | For 15 Minutes | Good",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "350",
+            "min": "100",
+            "max": "5000"
+        },
+        {
+            "service": 145,
+            "name": "VietNam | For 30 Minutes | Good",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "650",
+            "min": "100",
+            "max": "5000"
+        },
+        {
+            "service": 146,
+            "name": "VietNam | For 60 Minutes | Good",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "950",
+            "min": "100",
+            "max": "5000"
+        },
+        {
+            "service": 147,
+            "name": "VietNam | For 120 Minutes | Good",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "9504",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 148,
+            "name": "VietNam | For 180 Minutes | Good",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "14124",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 149,
+            "name": "T\u00e0i Nguy\u00ean Vi\u1ec7t Nam | [ 500 - 1k\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "149",
+            "min": "110",
+            "max": "100000"
+        },
+        {
+            "service": 150,
+            "name": "T\u00e0i Nguy\u00ean Vi\u1ec7t Nam | [ 300 - 500\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "219",
+            "min": "110",
+            "max": "100000"
+        },
+        {
+            "service": 151,
+            "name": "T\u00e0i Nguy\u00ean Vi\u1ec7t Nam | [ 10k\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "225",
+            "min": "110",
+            "max": "100000"
+        },
+        {
+            "service": 154,
+            "name": "Global | Real HQ | 500\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 WhatsApp",
+            "rate": "298",
+            "min": "10",
+            "max": "2000"
+        },
+        {
+            "service": 155,
+            "name": "Global | Real HQ | 500\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 WhatsApp",
+            "rate": "129",
+            "min": "10",
+            "max": "2000"
+        },
+        {
+            "service": 156,
+            "name": "User\/Artist\/Playlist | 100k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Spotify",
+            "rate": "9.9",
+            "min": "20",
+            "max": "100000000"
+        },
+        {
+            "service": 157,
+            "name": "User\/Artist\/Playlist | 200k\/Day | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Spotify",
+            "rate": "63.2",
+            "min": "20",
+            "max": "100000000"
+        },
+        {
+            "service": 158,
+            "name": "T\u00e0i Nguy\u00ean Via Vi\u1ec7t | 10-50K\/Day | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "2.69",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 159,
+            "name": "Max 100K | Non Drop | Lifetime \u267b\ufe0f| 10K Per Minute \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "15.8",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 163,
+            "name": "T\u00e0i Nguy\u00ean Clone VI\u1ec7t\u26a1 \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "135",
+            "min": "5",
+            "max": "1000"
+        },
+        {
+            "service": 164,
+            "name": "T\u00e0i Nguy\u00ean Pro5 | T\u1ed1c \u0110\u1ed9 Th\u01b0\u1eddng",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "4.9",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 166,
+            "name": "T\u00e0i Nguy\u00ean Via + Page | HOT \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "21.9",
+            "min": "100",
+            "max": "5000"
+        },
+        {
+            "service": 167,
+            "name": "T\u00e0i Nguy\u00ean Clone + Page Pro5 | SALE",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "7.9",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 168,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t | [ \u0110\u1ed9c Quy\u1ec1n ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "10",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 169,
+            "name": "T\u00e0i Nguy\u00ean Vi\u1ec7t Nam \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "130",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 170,
+            "name": "T\u00e0i nguy\u00ean \u0110a Qu\u1ed1c Gia \ud83c\udf0d\u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "75",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 171,
+            "name": "Like\ud83d\udc4d] 2-10k\/Day | T\u00e0i Nguy\u00ean Clone",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "11.79",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 174,
+            "name": "Ng\u01b0\u1eddi D\u00f9ng Th\u1eadt | R7",
+            "type": "Custom Comments",
+            "category": "Other Services",
+            "rate": "9900",
+            "min": "5",
+            "max": "10000"
+        },
+        {
+            "service": 175,
+            "name": "Ng\u01b0\u1eddi D\u00f9ng Th\u1eadt | T\u1ed1c \u0110\u1ed9 Nhanh | R30",
+            "type": "Custom Comments",
+            "category": "Other Services",
+            "rate": "23000",
+            "min": "1",
+            "max": "1000"
+        },
+        {
+            "service": 176,
+            "name": "Tweet Views | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 177,
+            "name": "Link Clicks | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 178,
+            "name": "Profile Clicks | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 179,
+            "name": "Detail Clicks | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 180,
+            "name": "Media Views | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 181,
+            "name": "Hashtag Clicks | Instant | 100M\/Day | ND | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "0.029",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 182,
+            "name": "[ Like \ud83d\udc4d ]T\u00e0i Nguy\u00ean Pro5 | T\u1ed1c \u0110\u1ed9 Nhanh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "9.9",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 183,
+            "name": "T\u00e0i Nguy\u00ean Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Ch\u1eadm \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "125",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 185,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | Ch\u1ea5t L\u01b0\u1ee3ng Cao \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "155",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 186,
+            "name": "Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | N\u00ean D\u00f9ng\u26a1\ufe0f \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "199",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 190,
+            "name": "Max 50K | Always Works | 10K\/Day \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "6.4",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 191,
+            "name": "Max 300K | Always Works | 10K\/Day \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "6.8",
+            "min": "50",
+            "max": "300000"
+        },
+        {
+            "service": 192,
+            "name": "Max 100K | Always Works | 10K\/Day \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "6.9",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 193,
+            "name": "Max 100M | T\u1ed1c \u0110\u1ed9 Nhanh | Nh\u1eadp Link | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0249",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 194,
+            "name": "Max 500K | HOT | Nh\u1eadp Link | R50",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "4.79",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 195,
+            "name": "T\u00e0i Nguy\u00ean Page | Si\u00eau Nhanh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "12.5",
+            "min": "100",
+            "max": "20000000"
+        },
+        {
+            "service": 196,
+            "name": "T\u1ed1c \u0110\u1ed9 Nhanh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.49",
+            "min": "100",
+            "max": "2000"
+        },
+        {
+            "service": 197,
+            "name": "High Drop | 5k-10k\/Day | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "4904.9",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 198,
+            "name": "External | 2k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "36.179",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 199,
+            "name": "External | 3k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "37.389",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 200,
+            "name": "External | 4k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "38.599",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 201,
+            "name": "External | 5k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "39.809",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 202,
+            "name": "External | 6k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "33.9",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 203,
+            "name": "External | 7k\/Day | R7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "42.229",
+            "min": "1000",
+            "max": "100000000"
+        },
+        {
+            "service": 204,
+            "name": "External | 10k\/Day | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "37.9",
+            "min": "1000",
+            "max": "1000000000"
+        },
+        {
+            "service": 205,
+            "name": "1 Mins Retention | 500-2k\/Day | R15",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "45",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 206,
+            "name": "1-3 Mins Retention | 500-2k\/Day | R15",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "46.5",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 207,
+            "name": "2-10 Mins Retention | 500-2k\/Day | R15",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "49",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 208,
+            "name": "[ Like \ud83d\udc4d ]Ng\u01b0\u1eddi Vi\u1ec7t | High Quality | Max 10K | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "14.5",
+            "min": "100",
+            "max": "1000"
+        },
+        {
+            "service": 209,
+            "name": "T\u1ed1c \u0110\u1ed9 Nhanh | Ng\u01b0\u1eddi Th\u1eadt Share | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "17.9",
+            "min": "30",
+            "max": "10000"
+        },
+        {
+            "service": 210,
+            "name": "1-2M\/Day |  LifeTimeRefill - Stable price \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.039",
+            "min": "100",
+            "max": "30000000"
+        },
+        {
+            "service": 211,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t [ 2-10K\/Day ] [ \u0110\u1ed9c Quy\u1ec1n ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "17.9",
+            "min": "100",
+            "max": "300000"
+        },
+        {
+            "service": 212,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t [ 10-20K\/Day ] [ \u0110\u1ed9c Quy\u1ec1n ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "18.5",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 213,
+            "name": "Share Posts | USA | Include Static | MQ 10K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "368207.84",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 214,
+            "name": "\ud83d\udc4d \ud83d\ude01\u2764\ufe0f \ud83d\udd25 \ud83c\udf89 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 215,
+            "name": "World | Max 20K | 15 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "17.545",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 216,
+            "name": "World | Max 20K | 30 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "35.09",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 217,
+            "name": "World | Max 20K | 60 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "70.18",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 218,
+            "name": "World | Max 20K | 90 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "105.27",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 219,
+            "name": "World | Max 20K | 120 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "140.36",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 220,
+            "name": "World | Max 20K | 180 Minutes | Stable",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "382.8",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 221,
+            "name": "[ All Type Page ] [ 5-10k\/D ] [ Non Drop ] [ R7 ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.99",
+            "min": "100",
+            "max": "300000"
+        },
+        {
+            "service": 222,
+            "name": "MQ 100M | Speed 500K-1M\/D | 0-12 Hour | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "94958.864",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 223,
+            "name": "MQ 1.5M | Speed 500K P\/H | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "0.69",
+            "min": "100",
+            "max": "1500000"
+        },
+        {
+            "service": 224,
+            "name": "MQ 1B | 0-12 Hours | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "77323.6464",
+            "min": "500",
+            "max": "100000000"
+        },
+        {
+            "service": 225,
+            "name": "MQ 15M | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "184103.92",
+            "min": "100",
+            "max": "15000000"
+        },
+        {
+            "service": 226,
+            "name": "MQ 1.5M | 0-1 Hour | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "192824.632",
+            "min": "100",
+            "max": "1500000"
+        },
+        {
+            "service": 227,
+            "name": "MQ 5M | Instant | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "1260918058.4",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 228,
+            "name": "MQ 10k | HQ | RB7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "39",
+            "min": "20",
+            "max": "10000"
+        },
+        {
+            "service": 229,
+            "name": "MQ 15K | HQ | RB7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "35035",
+            "min": "50",
+            "max": "15000"
+        },
+        {
+            "service": 230,
+            "name": "Random | MQ 5K | 0-12Hours",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "990",
+            "min": "5",
+            "max": "5000"
+        },
+        {
+            "service": 231,
+            "name": "MQ 10K | HQ | RB7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Soundcloud",
+            "rate": "45",
+            "min": "30",
+            "max": "10000"
+        },
+        {
+            "service": 232,
+            "name": "Real Active Users | Instant | 25k\/H | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "9.9",
+            "min": "50",
+            "max": "30000"
+        },
+        {
+            "service": 234,
+            "name": "60K Minutes | Live + Offline | 3 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "19",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 235,
+            "name": "60K Minutes | Live + Offline | 2 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "22",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 236,
+            "name": "60K Minutes | Live + Offline | 1 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "29",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 237,
+            "name": "120K Minutes | Live + Offline | 3 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "35",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 238,
+            "name": "120K Minutes | Live + Offline | 2 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "39",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 239,
+            "name": "120K Minutes | Live + Offline | 1 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "55",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 240,
+            "name": "180K Minutes | Live + Offline | 3 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "49",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 241,
+            "name": "180K Minutes | Live + Offline | 2 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "55",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 242,
+            "name": "180K Minutes | Live + Offline | 1 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "69",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 243,
+            "name": "600K Minutes | Live + Offline | 3 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "155",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 244,
+            "name": "600K Minutes | Live + Offline | 2 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "169",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 245,
+            "name": "600K Minutes | Live + Offline | 1 Hour Video | ND | R60",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "239",
+            "min": "1000",
+            "max": "1000"
+        },
+        {
+            "service": 246,
+            "name": "T\u00e0i Nguy\u00ean Pro5 | T\u1ed1c \u0110\u1ed9 \u1ed4n \u0110\u1ecanh | Nh\u1eadp Link | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "39.5",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 247,
+            "name": "Bot Followers | Max 1K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "4.9",
+            "min": "100",
+            "max": "1000"
+        },
+        {
+            "service": 248,
+            "name": "10M\/Day | Bop Exclusive | Super Instant \u26a1\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.89",
+            "min": "1000",
+            "max": "300000000"
+        },
+        {
+            "service": 249,
+            "name": "[ Max 10M ] [ B\u1ea3o H\u00e0nh 30 Ng\u00e0y ] \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.075",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 250,
+            "name": "[ Max 500M ] [ Real ] [ Always Working ]\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.045",
+            "min": "100",
+            "max": "5000000"
+        },
+        {
+            "service": 251,
+            "name": "Max 100K | 30 Days \u267b\ufe0f | Instant Start \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "6",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 252,
+            "name": "VietNam | Cheap | Max 20K [ 30 Munites ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "171.82",
+            "min": "50",
+            "max": "20000"
+        },
+        {
+            "service": 253,
+            "name": "VietNam | Cheap | Max 20K [ 60 Munites ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "343.64",
+            "min": "50",
+            "max": "20000"
+        },
+        {
+            "service": 254,
+            "name": "VietNam | Cheap | Max 20K [ 90 Munites ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "515.46",
+            "min": "50",
+            "max": "20000"
+        },
+        {
+            "service": 255,
+            "name": "VietNam | Cheap | Max 20K [ 120 Munites ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "687.28",
+            "min": "50",
+            "max": "20000"
+        },
+        {
+            "service": 256,
+            "name": "Max 1K | Cheapest in the World \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "3.99",
+            "min": "10",
+            "max": "1000"
+        },
+        {
+            "service": 257,
+            "name": "[ Max 5M ] [10K\/H] [ Recommend ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "13.5",
+            "min": "100",
+            "max": "5000000"
+        },
+        {
+            "service": 258,
+            "name": "\ud83c\udf0d 20-30K\/Day | Drop rate 0% | Increase 10% | R30 \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "9.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 259,
+            "name": "\ud83c\udf0d 20-30K\/Day | Drop rate 0% | Increase 20% | R365 \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "11.5",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 261,
+            "name": "[ T\u00e0i Nguy\u00ean Page Vi\u1ec7t ] [ Slow ] [ Max 50K ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "46",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 263,
+            "name": "[ Max 3M ] [ T\u00e0i Nguy\u00ean Page ] [ C\u00f3 Avatar ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "17.9",
+            "min": "100",
+            "max": "3000000"
+        },
+        {
+            "service": 264,
+            "name": "Max Unlimited | Day 100M \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0129",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 265,
+            "name": "[ Like \ud83d\udc4d ][ Nh\u1eadp Link  ][ Max 50K ] [ Normal ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 266,
+            "name": "Max 30K | Days 1-5K | 0-15 Min",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "17.99",
+            "min": "100",
+            "max": "30000"
+        },
+        {
+            "service": 267,
+            "name": "[ Max 1M ] | Instant Start | Day 50K \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "11.55",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 268,
+            "name": "Max 100K  | 3 Days \u267b\ufe0f | Day 50K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "20",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 269,
+            "name": "[ New ] [ B\u1ea3o h\u00e0nh 60 ng\u00e0y ] \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "13.9",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 270,
+            "name": "[ Max 5K ] | Always Works | 15 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "15",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 271,
+            "name": "[ Max 5K ] | Always Works | 30 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "30",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 272,
+            "name": "[ Max 5K ] | Always Works | 60 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "60",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 273,
+            "name": "[ Max 5K ] | Always Works | 90 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "90",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 274,
+            "name": "[ Max 5K ] | Always Works | 120 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "120",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 275,
+            "name": "[ Max 5K ] | Always Works | 180 Minutes \u2728",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3960",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 276,
+            "name": "Max 500K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "2.49",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 277,
+            "name": "Max 100K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "2.79",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 278,
+            "name": "Max 1M",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.49",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 279,
+            "name": "Max 100M",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.99",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 280,
+            "name": "Max 1M [ Nhanh ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "8.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 281,
+            "name": "Max 5M [ Nhanh ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "9.9",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 282,
+            "name": "Max 500K [ Nhanh ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "16.9",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 283,
+            "name": "Max 100K | 7 Days \u267b\ufe0f | Day 50K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "22.5",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 284,
+            "name": "[ Max 500M ] [ Real ] ALWAYS WORKING \u26a1\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.045",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 286,
+            "name": "Max10K | 30 Days \u267b\ufe0f | Instant Start \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.79",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 287,
+            "name": "Max 100K | Days 5-20K | 0-15 Min",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "5.9",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 288,
+            "name": "Instant | 5k\/Mins | ND | R30",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "8",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 289,
+            "name": "\ud83d\udea9Premium Members Telegram + View - From Search - 7 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "99",
+            "min": "10",
+            "max": "25000"
+        },
+        {
+            "service": 290,
+            "name": "\ud83d\udea9Premium Members Telegram + View For 5-20 Last Posts - 14 Days Refill\u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "129",
+            "min": "100",
+            "max": "22000"
+        },
+        {
+            "service": 291,
+            "name": "\ud83d\udea9Premium Members Telegram + View - From Search - 10 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "139",
+            "min": "10",
+            "max": "25000"
+        },
+        {
+            "service": 292,
+            "name": "\ud83d\udea9Premium Members Telegram + View - From Search - 15 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "189",
+            "min": "10",
+            "max": "15000"
+        },
+        {
+            "service": 293,
+            "name": "\ud83d\udea9Premium Members Telegram + View - From Search - 20-30 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "270",
+            "min": "10",
+            "max": "15000"
+        },
+        {
+            "service": 294,
+            "name": "[ Ng\u01b0\u1eddi Vi\u1ec7t ] [ Hi\u1ec7n T\u1ea1i \u0110ang Nhanh ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "19.5",
+            "min": "100",
+            "max": "30000"
+        },
+        {
+            "service": 295,
+            "name": "[ Max 500K ] | \ud83c\udf0d | Day 10K \u26a1\u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "15",
+            "min": "10",
+            "max": "500000"
+        },
+        {
+            "service": 296,
+            "name": "Ultra Fast | Day 50K \u26a1\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "18.9",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 297,
+            "name": "Instant | Max 120K | NR",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "13.79",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 298,
+            "name": "Max 100K | 10 Days \u267b\ufe0f | Day 50K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "19.9",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 299,
+            "name": "Max:100K | 15 Days Refill | SuperInstant | Speed: 50K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "23.5",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 300,
+            "name": "Max:100K | 30 Days Refill | SuperInstant | Speed: 50K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "29",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 301,
+            "name": "[ World ] [ Max 20K ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "13.156",
+            "min": "100",
+            "max": "20000"
+        },
+        {
+            "service": 302,
+            "name": "[ H\u1ed7 tr\u1ee3 m\u1ecdi lo\u1ea1i trang c\u00e1 nh\u00e2n ] [ Nh\u1eadp Link ] [ Sale ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "13.59",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 303,
+            "name": "[Super Cheap] [ Stable Price ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.55",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 304,
+            "name": "T\u00e0i Nguy\u00ean Page | 50K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "37.9",
+            "min": "100",
+            "max": "5000000"
+        },
+        {
+            "service": 305,
+            "name": "T\u00e0i nguy\u00ean Via & Page Pro5 | [ 5-50K\/Day ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "19",
+            "min": "500",
+            "max": "100000"
+        },
+        {
+            "service": 306,
+            "name": "[ T\u00e0i Nguy\u00ean Clone ] [ 5 - 50K \/ Day ] [ Hot Sale ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "29.9",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 307,
+            "name": "[ Real ] [ 1K\/10 Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 308,
+            "name": "[ Real ] [ 500\/1 Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 309,
+            "name": "[ Mixed ] [ Real ] [ 500\/1 Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 310,
+            "name": "[ Super High Quality ] [ Real ] [ 1K\/Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 311,
+            "name": "[ Super High Quality ] [ Real ] [ 5K\/Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 312,
+            "name": "[ Super High Quality ] [ Real ] [ 10K\/Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 313,
+            "name": "[ Real ] [ 25K\/ Hour ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "7.9",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 314,
+            "name": "[ Quality Real ] [ 5K\/ Hour ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "11.6",
+            "min": "500",
+            "max": "50000"
+        },
+        {
+            "service": 315,
+            "name": "[ Super High Quality ] [ 1K\/ 50 Minutes ] \u1d39\u1d43\u2071\u207f \u02e2\u1d58\u1d56\u1d56\u02e1\u2071\u1d49\u02b3",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "45.5",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 317,
+            "name": "Like\ud83d\udc4d | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.8",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 318,
+            "name": "Haha \ud83d\ude02 | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.8",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 319,
+            "name": "Love \u2764\ufe0f | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "11.6",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 320,
+            "name": "Care \ud83e\udd70 | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.8",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 321,
+            "name": "Wow \ud83d\ude32 | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.8",
+            "min": "50",
+            "max": "10000"
+        },
+        {
+            "service": 322,
+            "name": "Sad \ud83d\ude22 | \ud83d\ude80 Speed 3K Per Hour | \u26d4 No Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.8",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 323,
+            "name": "\ud83d\ude80 Speed Normal | \u267b\ufe0f 30 Days Refill",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "3.95",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 324,
+            "name": "\ud83d\ude80 Speed Fast | T\u00e0i Nguy\u00ean Page + Clone Sale \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "16.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 325,
+            "name": "5k-10k\/Day  | INSTANT",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "39.9",
+            "min": "100",
+            "max": "10000000"
+        },
+        {
+            "service": 326,
+            "name": "5k-10k\/Day  | INSTANT",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "19.9",
+            "min": "100",
+            "max": "100000000"
+        },
+        {
+            "service": 327,
+            "name": "[ 2k-10k\/day ] [ Good For Ranking ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "54.9",
+            "min": "1000",
+            "max": "1000000"
+        },
+        {
+            "service": 328,
+            "name": "[ CHEAPEST ] [ MAX - 50k ] INSTANT",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "20",
+            "min": "20",
+            "max": "50000"
+        },
+        {
+            "service": 329,
+            "name": "[ Fastest, Cheapest ] [ No Refill ] [ MAX - 70k ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "25.9",
+            "min": "10",
+            "max": "175000"
+        },
+        {
+            "service": 330,
+            "name": "[ CHEAPEST ] [ 30 DAYS REFILL ] [ MAX - 100K ] INSTANT",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "36.5",
+            "min": "10",
+            "max": "175000"
+        },
+        {
+            "service": 331,
+            "name": "[ MAX - 200k ] INSTANT",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "59.5",
+            "min": "20",
+            "max": "200000"
+        },
+        {
+            "service": 332,
+            "name": "[Max: 1M] [Start Time: 1 - 12 Hrs]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "389",
+            "min": "5000",
+            "max": "1000000"
+        },
+        {
+            "service": 333,
+            "name": "Non-Drop | Instant Start | 100M\/Day \ud83d\udd25\ud83d\udd25 \ud835\ude41\ud835\ude3c\ud835\ude4e\ud835\ude4f \ud835\ude3e\ud835\ude4a\ud835\ude48\ud835\ude4b\ud835\ude47\ud835\ude40\ud835\ude4f\ud835\ude40\ud835\ude3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "3.9",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 334,
+            "name": "Non-Drop | Instant Start | 300M\/Day \ud83d\udd25\ud83d\udd25 \ud835\ude41\ud835\ude3c\ud835\ude4e\ud835\ude4f \ud835\ude3e\ud835\ude4a\ud835\ude48\ud835\ude4b\ud835\ude47\ud835\ude40\ud835\ude4f\ud835\ude40\ud835\ude3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "4.5",
+            "min": "100",
+            "max": "2147483647"
+        },
+        {
+            "service": 335,
+            "name": "[ Premium\u2728 ] [ Instant ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "8.9",
+            "min": "10",
+            "max": "5000000"
+        },
+        {
+            "service": 336,
+            "name": "[ R30 ] [ Old Accounts ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.5",
+            "min": "50",
+            "max": "500000"
+        },
+        {
+            "service": 337,
+            "name": "[ Quality Real ] [ Old Accounts ] [ Instant ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.49",
+            "min": "50",
+            "max": "50000"
+        },
+        {
+            "service": 338,
+            "name": "[ Cheap ] [ 1K \/ min ] [ Instant ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "3.289",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 339,
+            "name": "[ Mix ] [ Superfast ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.45",
+            "min": "50",
+            "max": "100000"
+        },
+        {
+            "service": 340,
+            "name": "[ Avatar Accounts ] [ Superfast ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.75",
+            "min": "50",
+            "max": "350000"
+        },
+        {
+            "service": 341,
+            "name": "[ Old Account Likes ] [ 500\/Day ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "0.89",
+            "min": "50",
+            "max": "200000"
+        },
+        {
+            "service": 342,
+            "name": "CHEAP \u26a0\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "3.19",
+            "min": "100",
+            "max": "5000"
+        },
+        {
+            "service": 343,
+            "name": "ADS | Worldwide | 100% Real | Non Drop | Lifetime \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "25.9",
+            "min": "15000",
+            "max": "10000000"
+        },
+        {
+            "service": 348,
+            "name": "\ud83c\udf1fHamster Kombat Referrals FAST START - SILVER +25K \ud83c\udf1f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "4900",
+            "min": "1",
+            "max": "200"
+        },
+        {
+            "service": 349,
+            "name": "T\u00e0i nguy\u00ean Via + Page Pro5 | Ch\u1ec9 t\u0103ng Follow",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.99",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 350,
+            "name": "Premium - Best For Search Optimize | Fast",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "35.9",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 351,
+            "name": "Instant - Speed : \ud83d\udccdFast",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "27.9",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 352,
+            "name": "View + Share + Reaction - Include To Statics - Real \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "8.9",
+            "min": "30",
+            "max": "1000000"
+        },
+        {
+            "service": 353,
+            "name": "BOT | View + Share + Reaction - Include To Statics - Real \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "7.9",
+            "min": "30",
+            "max": "10000000"
+        },
+        {
+            "service": 354,
+            "name": "30 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "115",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 355,
+            "name": "60 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "230",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 356,
+            "name": "90 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "345",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 357,
+            "name": "120 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "460",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 358,
+            "name": "180 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "690",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 359,
+            "name": "240 Ph\u00fat | \u0110a T\u00e0i Nguy\u00ean | \u1ed4n \u0111\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "920",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 360,
+            "name": "\ud83d\udea9Premium Members Telegram + View - Join From Link - 30 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "490",
+            "min": "10",
+            "max": "20000"
+        },
+        {
+            "service": 361,
+            "name": "\ud83d\udea9Premium Members Telegram + View - Clicks From Search  - 3-10 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "99",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 362,
+            "name": "\ud83d\udea9Premium Members Telegram + View - Clicks From Search  - 7-30 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "116",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 363,
+            "name": "\ud83d\udea9Premium Members Telegram + View  - 30 Days Premium Members \u267b\ufe0f\u2b50\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "235",
+            "min": "100",
+            "max": "25000"
+        },
+        {
+            "service": 364,
+            "name": "\ud83d\udea9Premium Members Telegram + No View - Join From Search  - 20-30 Days Premium Members \u267b\ufe0f\u2b50\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "280.5",
+            "min": "100",
+            "max": "24500"
+        },
+        {
+            "service": 365,
+            "name": "\ud83d\udea9Premium Members Telegram + View - Click From Search - 30 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "450",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 366,
+            "name": "\ud83d\udea9Premium Members Telegram + View For 5-20 Last Posts - Click From Search - 10 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "235",
+            "min": "10",
+            "max": "25000"
+        },
+        {
+            "service": 367,
+            "name": "\ud83d\udea9Premium Members Telegram + View - Join From Link - 30 Days Premium Members \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "299",
+            "min": "10",
+            "max": "55000"
+        },
+        {
+            "service": 368,
+            "name": "T\u00e0i Nguy\u00ean Via, Clone, Page Pro5 | Max 2M",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "4.9",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 369,
+            "name": "T\u00e0i Nguy\u00ean Via, Clone | \u1ed4n \u0110\u1ecbnh",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.9",
+            "min": "100",
+            "max": "10000"
+        },
+        {
+            "service": 370,
+            "name": "T\u00e0i nguy\u00ean Clone Vi\u1ec7t [ Ch\u1eadm ]  \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "104.5",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 371,
+            "name": "H\u1ed7 tr\u1ee3  LiveStream [ Nhanh ] \u1d3e\u1d3f\u1d3c\u2c7d\u1d35\u1d30\u1d31\u1d3f",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "445",
+            "min": "10",
+            "max": "10000"
+        },
+        {
+            "service": 372,
+            "name": "4K\/Day | NoRefill | Stable price \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "4.59",
+            "min": "10",
+            "max": "4000"
+        },
+        {
+            "service": 373,
+            "name": "R\u1ebb Nh\u1ea5t Th\u00ea Gi\u1edbi | 100K-500K\/Day | Max 2B \u26d4\u2b50\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "0.0408",
+            "min": "100",
+            "max": "2000000000"
+        },
+        {
+            "service": 374,
+            "name": "H\u1ed7 tr\u1ee3 Live | Ng\u01b0\u1eddi Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | N\u00ean D\u00f9ng\u26a1\ufe0f \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "520",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 375,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Ch\u1eadm \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "55.5",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 376,
+            "name": "T\u00e0i Nguy\u00ean Clone | H\u1ed7 tr\u1ee3 Group Beta\u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "120",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 377,
+            "name": "T\u00e0i Nguy\u00ean Clone Vi\u1ec7t | T\u1ed1c \u0110\u1ed9 Nhanh | Th\u00edch h\u1ee3p cho Live\u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "59",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 378,
+            "name": "T\u00e0i Nguy\u00ean Clone | T\u1ed1c \u0110\u1ed9 C\u1ef1c Nhanh | H\u1ed7 tr\u1ee3 Livestream \u26d4",
+            "type": "Custom Comments",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "349",
+            "min": "5",
+            "max": "100000"
+        },
+        {
+            "service": 379,
+            "name": "T\u00e0i Nguy\u00ean Via Vi\u1ec7t | 5-10K\/Day \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "3.19",
+            "min": "100",
+            "max": "500000"
+        },
+        {
+            "service": 380,
+            "name": "100% Online Member | 30 Days Non Drop \ud83d\ude80",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "250",
+            "min": "500",
+            "max": "10000"
+        },
+        {
+            "service": 381,
+            "name": "Sub Page Ch\u1ec9 H\u1ed7 Tr\u1ee3 Page Th\u01b0\u1eddng| B\u1ea3o h\u00e0nh 50 ng\u00e0y \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "5.7",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 382,
+            "name": "\ud83d\ude0d \u2764\ufe0f\ud83d\udc4c \ud83d\udc33 \ud83e\udd21 \ud83d\udc4d | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 383,
+            "name": "\ud83d\udc4e \ud83e\udd2e\ud83d\ude31 \ud83d\udca9 \ud83d\ude22 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 384,
+            "name": "\u2764\ufe0f | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 385,
+            "name": "\ud83d\udc4d | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 386,
+            "name": "\ud83d\udc4e | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 387,
+            "name": "\ud83e\udd2c | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 388,
+            "name": "\ud83d\ude4f | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 389,
+            "name": "\ud83d\udc4c | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 390,
+            "name": "\ud83d\ude0d | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 391,
+            "name": "\ud83d\udc33| Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 392,
+            "name": "\ud83d\udcaf | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 393,
+            "name": "\ud83e\udd23 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 394,
+            "name": "\ud83e\udd2d | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 395,
+            "name": "\ud83e\udd21| Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 396,
+            "name": "\ud83d\udd25 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 397,
+            "name": "\ud83c\udf89 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 398,
+            "name": "\ud83e\udd29 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 399,
+            "name": "\ud83d\ude31 | Free Views",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.9",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 400,
+            "name": "\ud83d\udea9Premium \ud83d\udc4d\ud83e\udd29\ud83c\udf89\ud83d\udd25\u2764\ufe0f\ud83e\udd70\ud83d\udc4f\ud83c\udffb",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "14.5",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 401,
+            "name": "\ud83d\udea9Premium \ud83d\udc4e\ud83d\ude01\ud83d\ude22\ud83d\udca9\ud83e\udd2e\ud83e\udd14\ud83e\udd2f\ud83e\udd2c",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "14.5",
+            "min": "10",
+            "max": "5000"
+        },
+        {
+            "service": 402,
+            "name": "[ Fast ] [ Instant ] [ 100K\/Hour ]",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "2",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 403,
+            "name": "5 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "3.5",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 404,
+            "name": "10 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "6.8",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 405,
+            "name": "20 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "13.6",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 406,
+            "name": "30 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "20.4",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 407,
+            "name": "50 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "34",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 408,
+            "name": "100 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "68",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 409,
+            "name": "500 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "340",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 410,
+            "name": "1000 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "440",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 411,
+            "name": "5000 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "2100",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 412,
+            "name": "10000 Future Posts \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "4200",
+            "min": "100",
+            "max": "2000000"
+        },
+        {
+            "service": 413,
+            "name": "\ud83c\udf0e Max 1M | [ 35-40\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "79",
+            "min": "10",
+            "max": "15000"
+        },
+        {
+            "service": 414,
+            "name": "\ud83c\udf0e Max 1M | [ 50-100\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "78",
+            "min": "10",
+            "max": "30000"
+        },
+        {
+            "service": 415,
+            "name": "\ud83c\udf0e Max 50k | [ 200\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "89",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 416,
+            "name": "\ud83c\udf0e Max 50k | [ 200-500\/Day ] | R30 \u267b\ufe0f",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Youtube",
+            "rate": "100",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 417,
+            "name": "Max 50K | 15 Days \u267b\ufe0f | Day 25K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "17.5",
+            "min": "100",
+            "max": "50000"
+        },
+        {
+            "service": 418,
+            "name": "Max 1M | 15 Days \u267b\ufe0f | Day 25K",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "20.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 419,
+            "name": "Max 100K | 30 Days \u267b\ufe0f | 5K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "29.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 420,
+            "name": "\ud83c\udf0e Max 100K | 30 Days \u267b\ufe0f | 50K\/Day",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 X - Twitter",
+            "rate": "30",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 421,
+            "name": "\ud83c\udf0d Max 1M | Drop rate 5% | R30 \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 422,
+            "name": "\ud83c\udf0d Max 1M | Drop rate 5% | R60 \u267b\ufe0f\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.9",
+            "min": "50",
+            "max": "1000000"
+        },
+        {
+            "service": 423,
+            "name": "\ud83c\udf0d Max 1M | 100% Real App Data \u26d4\u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "6.85",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 424,
+            "name": "Max 1M | 100% Real App Data | 30 Days \u267b\ufe0f| \ud83d\ude80Provider",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "6.95",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 425,
+            "name": "Max 1M | 100% Real App Data | 365 Days \u267b\ufe0f| \ud83d\ude80Provider",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "7.95",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 426,
+            "name": "Max 1M | 100% Real App Data | Lifetimee\u267b\ufe0f| \ud83d\ude80Provider",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Instagram",
+            "rate": "8.5",
+            "min": "10",
+            "max": "1000000"
+        },
+        {
+            "service": 427,
+            "name": "\ud83c\udf0dMax 500K | Drop 0-2% | 30 Days \u267b\ufe0f | Day 50K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "28.5",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 428,
+            "name": "\ud83c\udf0dMax 500K | Fast | Day 20K \u26a1",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "20.5",
+            "min": "10",
+            "max": "50000"
+        },
+        {
+            "service": 429,
+            "name": "Like\ud83d\udc4d | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 430,
+            "name": "Love\u2764\ufe0f | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 431,
+            "name": "Care\ud83e\udd70 | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 432,
+            "name": "Sad\ud83d\ude22 | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 433,
+            "name": "Haha\ud83d\ude02 | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 434,
+            "name": "Wow\ud83d\ude32 | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 435,
+            "name": "Angry\ud83d\ude21 | Max 100K | \ud83d\ude80 T\u1ed1c \u0110\u1ed9 Nhanh | \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "6.5",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 436,
+            "name": "100% Member Online \ud83d\udfe2 | 30 Days Non Drop \ud83d\ude80",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "250",
+            "min": "250",
+            "max": "13000"
+        },
+        {
+            "service": 437,
+            "name": "[ Max 1M ] | Instant Start | Day 50K \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 TikTok",
+            "rate": "22.5",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 438,
+            "name": "[ Max 1M ] | Non Drop | 30 Days \u267b\ufe0f | Day 20K \ud835\uddd6\ud835\udddb\ud835\uddd8\ud835\uddd4\ud835\udde3\ud835\uddd8\ud835\udde6\ud835\udde7",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "2.59",
+            "min": "100",
+            "max": "1000000"
+        },
+        {
+            "service": 439,
+            "name": "Vip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip FacebookVip Facebook",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Facebook",
+            "rate": "12",
+            "min": "0",
+            "max": "0"
+        },
+        {
+            "service": 440,
+            "name": "\ud83c\udf0dMax 100K | ND | R60\u267b\ufe0f| Fast \ud83d\ude80\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "65",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 441,
+            "name": "\ud83c\udf0dMax 100K | ND | R90\u267b\ufe0f| Fast \ud83d\ude80\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "85",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 442,
+            "name": "\ud83c\udf0dMax 100K | ND | R180\u267b\ufe0f| Fast \ud83d\ude80\ud83d\udd25",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Telegram",
+            "rate": "150",
+            "min": "100",
+            "max": "100000"
+        },
+        {
+            "service": 443,
+            "name": "[ Max 100K ] | 15 Minutes \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "6.5",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 444,
+            "name": "[ Max 100K ] | 30 Minutes \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "13",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 445,
+            "name": "[ Max 100K ] | 60 Minutes \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "26",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 446,
+            "name": "[ Max 100K ] | 90 Minutes \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "39",
+            "min": "10",
+            "max": "100000"
+        },
+        {
+            "service": 447,
+            "name": "[ Max 100K ] | 120 Minutes \u26d4",
+            "type": "Default",
+            "category": "D\u1ecbch v\u1ee5 Shoppe",
+            "rate": "52",
+            "min": "10",
+            "max": "100000"
+        }
+    ]
+}

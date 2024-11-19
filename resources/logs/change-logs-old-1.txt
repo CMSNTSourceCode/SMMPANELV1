@@ -1,0 +1,4 @@
+- Cập nhật thêm nạp tiền qua Perfect Money
+- Bổ sung link cron tự động đồng bộ giá dịch vụ
+- Cập nhật thêm Nền tảng dịch vụ [Nền tảng -> Phân loại -> Dịch vụ]
+- Muốn sử dụng thêm Nền tảng thì vào <a href="/admin/settings/general?type=general" target="_blank">đây</a> cập nhật "Loại form mua hàng"

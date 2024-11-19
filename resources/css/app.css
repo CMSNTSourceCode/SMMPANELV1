@@ -1,0 +1,28 @@
+@import './_custom.css';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* .card-header h3:not(.no-bg) {
+  color: #f1f1f1;
+  background: #eb542a
+    linear-gradient(135deg, var(--primary) 0, var(--primary) 100%) !important;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px 0px rgb(0 0 0 / 37%);
+}
+
+.card-heading h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.card-heading h3 img {
+  height: 30px;
+  margin-right: 10px;
+} */
