@@ -29,7 +29,6 @@ class GeneralController extends Controller
         'thumbnail'           => 'nullable|file|mimes:png,jpg,jpeg,svg,gif|max:20000',
         'logo_dark'           => 'nullable|file|mimes:png,jpg,jpeg,svg,gif|max:20000',
         'logo_light'          => 'nullable|file|mimes:png,jpg,jpeg,svg,gif|max:20000',
-        'auto_refund'         => 'nullable|boolean',
         'avatar_post'         => 'nullable|file|mimes:png,jpg,jpeg,svg,gif|max:20000',
         'avatar_user'         => 'nullable|file|mimes:png,jpg,jpeg,svg,gif|max:20000',
         'description'         => 'nullable|string|max:255',

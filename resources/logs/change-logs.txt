@@ -1,1 +1,2 @@
-- Các bạn kiểm tra lại phần định dạng giá từ API nhé, ở /admin/providers
+- Bổ sung icon vào dịch vụ
+- Cập nhật thêm phương thức nạp tiền Paypal: https://developer.paypal.com/dashboard/applications (tài khoản bussiness mới có thể dùng)

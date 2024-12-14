@@ -15,10 +15,9 @@ class ApiProvider extends Model
     'key',
     'name',
     'type',
-    'status',
     'balance',
+    'status',
     'auto_sync',
-    'rate_per_1k',
     'description',
     'currency_code',
     'exchange_rate',
@@ -28,7 +27,6 @@ class ApiProvider extends Model
   protected $casts = [
     'status'                    => 'boolean',
     'auto_sync'                 => 'boolean',
-    'rate_per_1k'               => 'boolean',
     'price_percentage_increase' => 'float',
   ];
 }

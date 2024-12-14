@@ -3,39 +3,25 @@
 namespace App\Http\Controllers\Cron;
 
 use App\Http\Controllers\Controller;
-
+use App\Libraries\BaseAPI;
 use App\Libraries\SMMApi;
+use App\Models\ApiProvider;
 use App\Models\Config;
 use App\Models\Order;
+use App\Models\SocialServer;
 use App\Models\Transaction;
-use App\Models\ApiProvider;
-
 use App\Models\User;
-use Illuminate\Support\Str;
+use Helper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
 {
-  public function placeOrder1(Request $request)
+  public function placeOrder(Request $request)
   {
-
-    // rate limit 30s / request
-    $key = 'time_cron_order' . $request->ip();
-
-    if (Cache::has($key)) {
-      return response()->json([
-        'status'  => 200,
-        'message' => 'Please wait 30 seconds to place orders',
-      ], 200);
-    }
-    // set cache
-    Cache::put($key, true, 30);
-
-    $orders = Order::where('src_place', false)->where('src_id', -1)->get();
+    $orders = Order::where('src_place', false)->get();
 
     foreach ($orders as $order) {
       $provider = $order->provider;
@@ -80,9 +66,6 @@ class OrderController extends Controller
           'src_status'   => 'Error',
           'order_status' => 'Error',
         ]);
-        if (setting('auto_refund', false)) {
-          $this->refundOrder($order->id, ['remains' => $order->quantity, 'start_count' => 0], 'Refund');
-        }
       } else {
         $orderId = $result['order'] ?? null;
         if ($orderId === null) {
@@ -106,119 +89,6 @@ class OrderController extends Controller
     Config::firstOrCreate(['name' => 'time_cron_order'], ['value' => now()])->update(['value' => now()]);
 
     // return $orders;
-  }
-
-  public function placeOrder(Request $request)
-  {
-    try {
-      $requestId = $request->header('X-Request-ID') ?? Str::uuid();
-
-      if (Cache::has('processed_request_' . $requestId)) {
-        return response()->json(['status' => 200, 'message' => 'Request already processed']);
-      }
-
-      $rateLimitKey = 'time_cron_order_' . $request->ip();
-      if (Cache::has($rateLimitKey)) {
-        return response()->json(['status' => 429, 'message' => 'Please wait 30 seconds']);
-      }
-
-      DB::beginTransaction();
-
-      try {
-        $orders = Order::where('src_place', false)
-          ->where('src_id', -1)
-          ->limit(5)
-          ->lockForUpdate()
-          ->get();
-
-        if ($orders->isEmpty()) {
-          DB::commit();
-          return response()->json(['status' => 200, 'message' => 'No pending orders']);
-        }
-
-        Cache::put($rateLimitKey, true, 30);
-        Cache::put('processed_request_' . $requestId, true, 60);
-
-        foreach ($orders as $order) {
-          $provider = $order->provider;
-
-          if ($provider === null || $provider->status === false) {
-            $order->update([
-              'src_place'    => true,
-              'src_status'   => 'Error',
-              'src_resp'     => ['error' => 'Provider not found or disabled.'],
-              'order_status' => 'Error',
-            ]);
-            continue;
-          }
-
-          $result = Http::timeout(60)
-            ->asForm()
-            ->post($provider->url, [
-              'key'      => $provider->key,
-              'link'     => $order->object_id,
-              'action'   => "add",
-              'service'  => $order->src_type,
-              'quantity' => $order->quantity,
-              'comments' => implode("\n", $order->extra_data['comments'] ?? []),
-            ])
-            ->json();
-
-          if (isset($result['error']) && !isset($result['order']) || !isset($result['order_id'])) {
-            $order->update([
-              'src_resp'     => $result,
-              'src_place'    => true,
-              'extra_note'   => $result['error'] ?? $result['message'] ?? '',
-              'src_status'   => 'Error',
-              'order_status' => 'Error',
-            ]);
-
-            if (setting('auto_refund', false)) {
-              $this->refundOrder($order->id, [
-                'remains'     => $order->quantity,
-                'start_count' => 0,
-              ], 'Refund');
-            }
-          } else {
-            $orderId = $result['order'] ?? $result['order_id'] ?? -3;
-            $order->update([
-              'src_id'       => $orderId,
-              'src_resp'     => $result,
-              'src_place'    => true,
-              'src_status'   => 'Success',
-              'order_status' => 'Processing',
-            ]);
-          }
-
-          Log::info('Order processed', [
-            'order_id'   => $order->id,
-            'request_id' => $requestId,
-            'status'     => $order->src_status,
-          ]);
-        }
-
-        Config::firstOrCreate(['name' => 'time_cron_order'], ['value' => now()])
-          ->update(['value' => now()]);
-
-        DB::commit();
-
-        return response()->json(['status' => 200, 'message' => 'Orders processed']);
-
-      } catch (\Exception $e) {
-        DB::rollBack();
-        throw $e;
-      }
-
-    } catch (\Exception $e) {
-      Log::error('Order placement failed', [
-        'error' => $e->getMessage(),
-      ]);
-
-      return response()->json([
-        'status'  => 500,
-        'message' => 'Internal server error',
-      ], 500);
-    }
   }
 
   public function updateOrder(Request $request)
@@ -395,6 +265,7 @@ class OrderController extends Controller
     $remains = (int) $data['remains'];
 
     if ($status === 'Partial' && $remains === 0) {
+
       return $order->update([
         'order_status' => 'Cancelled',
         'extra_note'   => 'Partial order but remains is 0',

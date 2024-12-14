@@ -33,7 +33,6 @@ class ProviderController extends Controller
       'url'                       => 'required|string|url',
       'key'                       => 'required|string|max:2048',
       'status'                    => 'required|boolean',
-      'rate_per_1k'               => 'required|boolean',
       'description'               => 'nullable|string',
       'exchange_rate'             => 'nullable|numeric',
       'price_percentage_increase' => 'nullable|numeric',
@@ -80,7 +79,6 @@ class ProviderController extends Controller
       'url'                       => 'required|string|url',
       'key'                       => 'required|string|max:2048',
       'status'                    => 'required|boolean',
-      'rate_per_1k'               => 'required|boolean',
       'description'               => 'nullable|string',
       'exchange_rate'             => 'nullable|numeric',
       'price_percentage_increase' => 'nullable|numeric',
@@ -189,17 +187,20 @@ class ProviderController extends Controller
     foreach (Service::where('api_provider_id', $provider->id)->get() as $service) {
       $api_service = collect($services)->where('service', $service->api_service_id)->first();
 
-      $price = (float) ($api_service['rate'] ?? 0);
+      $price = $api_service['rate'] ?? 0; // 5.3
 
-      if (!$provider['rate_per_1k']) {
-        $price = (float) ($price * 1000);
+
+      $price = normalizeRate($price);
+
+      if ($provider->currency_code === 'VND') {
+        // $price = $price * 1000;
       }
 
       // convert to default currency
-      $price = (float) ($price * $provider->exchange_rate);
+      $price = convert_currency($price, $provider->exchange_rate, $provider->currency_code, $currency_code);
 
       // new rate update
-      $new_rate = $price + (float) ($price * ($default_price_percentage_increase / 100));
+      $new_rate = $price + ($price * $default_price_percentage_increase / 100);
       $new_rate = round($new_rate, $auto_rounding_x_decimal_places);
 
       $saved = $service->update([
@@ -348,10 +349,6 @@ class ProviderController extends Controller
 
       $price = $value['rate'] ?? 0;
 
-      if (!$provider['rate_per_1k']) {
-        $price = $price * 1000;
-      }
-
       // convert to default currency
       $price = convert_currency($price, $provider->exchange_rate, $provider->currency_code, $currency_code);
 
@@ -424,6 +421,7 @@ class ProviderController extends Controller
 
     $currency = cur_setting();
 
+    $currency_code                     = $currency['currency_code'] ?? 'USD';
     $auto_rounding_x_decimal_places    = $currency['auto_rounding_x_decimal_places'] ?? 2;
     $default_price_percentage_increase = $currency['default_price_percentage_increase'] ?? 25;
 
@@ -455,14 +453,13 @@ class ProviderController extends Controller
         ]);
       }
 
-      $price = (float) ($service['rate'] ?? 0);
+      $price = $service['rate'] ?? 0;
 
-      if (!$provider['rate_per_1k']) {
-        $price = (float) ($price * 1000);
-      }
+      // convert to default currency
+      $price = convert_currency($price, $provider->exchange_rate, $provider->currency_code, $currency_code);
 
       // new rate update
-      $new_rate    = $price + (float) ($price * ($default_price_percentage_increase / 100));
+      $new_rate    = $price + ($price * $default_price_percentage_increase / 100);
       $new_rate    = round($new_rate, $auto_rounding_x_decimal_places);
       $maxInt32Bit = 2147483647;
 

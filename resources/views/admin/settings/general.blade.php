@@ -49,15 +49,6 @@
           </div>
         </div>
         <div class="row mb-3">
-          <div class="col-md-3">
-            <label for="auto_refund">Hoàn tiền lỗi API</label>
-            <select class="form-control" id="auto_refund" name="auto_refund">
-              <option value="1" {{ setting('auto_refund') == 1 ? 'selected' : '' }}>Bật</option>
-              <option value="0" {{ setting('auto_refund') == 0 ? 'selected' : '' }}>Tắt</option>
-            </select>
-          </div>
-        </div>
-        <div class="row mb-3">
           <div class="col-md-6">
             <label for="footer_text" class="form-label">Footer Text</label>
             <input type="text" class="form-control" id="footer_text" name="footer_text" value="{{ old('footer_text', setting('footer_text', 'CMSNT.CO LTD')) }}">

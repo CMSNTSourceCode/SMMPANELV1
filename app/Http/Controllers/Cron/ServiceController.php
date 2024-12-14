@@ -54,14 +54,16 @@ class ServiceController extends Controller
       foreach (Service::where('api_provider_id', $provider->id)->get() as $service) {
         $api_service = collect($services)->where('service', $service->api_service_id)->first();
 
-        $price = (float) ($api_service['rate'] ?? 0);
+        $price = $api_service['rate'] ?? 0;
 
-        if (!$provider['rate_per_1k']) {
-          $price = (float) ($price * 1000);
+        $price = normalizeRate($price);
+
+        if ($provider->currency_code === 'VND') {
+          // $price = $price * 1000;
         }
 
         // convert to default currency
-        $price = (float) ($price * $provider->exchange_rate);
+        $price = convert_currency($price, $provider->exchange_rate, $provider->currency_code, $currency_code);
 
         // new rate update
         $new_rate = $price + ($price * $percent_up / 100);
@@ -79,5 +81,7 @@ class ServiceController extends Controller
 
       echo "Updated {$updated} services for provider #{$provider->id}<br />";
     }
+
+    // return $providers;
   }
 }
