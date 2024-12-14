@@ -41,6 +41,7 @@ class OrderController extends Controller
 
     //
     if (!!$payload['src_place'] === false) {
+      $payload['src_id']     = -1;
       $payload['src_place']  = false;
       $payload['src_status'] = 'Pending';
       // $payload['order_status'] = 'Pending';

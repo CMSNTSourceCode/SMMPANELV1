@@ -823,7 +823,7 @@ function CMSNT_check_license($licensekey, $localkey = '')
 function checkLicenseKey($licensekey)
 {
   $results = CMSNT_check_license($licensekey, '');
-  if ($licensekey == "meomatcang") {
+  if ($results['status'] == "Active") {
     $results['msg']    = "Giấy phép hợp lệ";
     $results['status'] = true;
     return $results;

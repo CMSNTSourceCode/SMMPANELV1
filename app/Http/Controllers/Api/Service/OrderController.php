@@ -226,7 +226,7 @@ class OrderController extends Controller
   {
     $payload = $request->validate([
       'quantity'    => 'required|integer|min:1|regex:/^[0-9]+$/',
-      'object_id'   => 'required|string',
+      'object_id'   => 'required|string|max:255',
       'service_id'  => 'required|integer|regex:/^[0-9]+$/',
       'order_note'  => 'nullable|string|max:255',
       'is_multiple' => 'nullable|boolean',
@@ -575,6 +575,8 @@ class OrderController extends Controller
         case 'pending':
           $status = 'Pending';
           break;
+        case 'partial':
+          $status = 'WaitingForRefund';
         case 'canceled':
           $status = 'WaitingForRefund';
           break;

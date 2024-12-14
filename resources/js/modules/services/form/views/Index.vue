@@ -132,8 +132,6 @@ const service = computed(() => {
 })
 
 const totalPrice = computed(() => {
-  const pricePer = service.value?.price_per || 0
-
   let price = form.value.quantity * (service.value?.price_per || 0)
 
   if (form.value.is_multiple) {

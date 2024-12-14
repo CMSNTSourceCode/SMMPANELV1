@@ -1,17 +1,6 @@
 {
-    "time": "2024-09-23T10:31:04.917651Z",
+    "time": "2024-11-19T17:03:15.815982Z",
     "data": [
-        {
-            "name": "Like vi\u1ec7t gi\u00e1 r\u1ebb",
-            "rate": 9600,
-            "min": 0,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 2,
-            "category": "Facebook - T\u0103ng Like B\u00e0i Vi\u1ebft"
-        },
         {
             "name": "Like clone si\u00eau r\u1ebb",
             "rate": 9600,
@@ -212,7 +201,7 @@
         },
         {
             "name": "Like page Via + page d\u1ea1ng m\u1edbi t\u1ed1c \u0111\u1ed9 2k-15k\/ng\u00e0y (sale)",
-            "rate": 23200,
+            "rate": 38400,
             "min": 100,
             "max": 1500000000,
             "type": "default",
@@ -244,17 +233,6 @@
             "category": "Facebook - T\u0103ng Like Page"
         },
         {
-            "name": "Like Page VIP +Via sale s\u1ed1c",
-            "rate": 35040,
-            "min": 100,
-            "max": 1000000,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 30,
-            "category": "Facebook - T\u0103ng Like Page"
-        },
-        {
             "name": "Sub PAGE(sale s\u1ed1c) kh\u00f4ng t\u1ee5t(HOT)(\u0110\u1ed9c quy\u1ec1n th\u1ebf gi\u1edbi)(c\u1ef1c nhanh) (Nhanh h\u01a1n SV123)(5M\/ng\u00e0y kh\u00f4ng b\u1ecb ngh\u1ebdn)",
             "rate": 52800,
             "min": 100,
@@ -274,6 +252,17 @@
             "refill": 0,
             "cancel": 0,
             "service": 32,
+            "category": "Facebook - T\u0103ng Theo D\u00f5i"
+        },
+        {
+            "name": "SUB VIP 100k-600k\/ng\u00e0y b\u1ea3o h\u00e0nh 1 th\u00e1ng( \u0110\u1ed9c quy\u1ec1n th\u1ebf gi\u1edbi)(HOT)(\u01b0u ti\u00ean d\u00f9ng)",
+            "rate": 30400,
+            "min": 100,
+            "max": 50000000,
+            "type": "default",
+            "refill": 0,
+            "cancel": 0,
+            "service": 36,
             "category": "Facebook - T\u0103ng Theo D\u00f5i"
         },
         {
@@ -333,7 +322,7 @@
         },
         {
             "name": "Member via Vi\u1ec7t+page T\u00ean Vi\u1ec7t 20-50k\/ng\u00e0y(\u01b0u ti\u00ean d\u00f9ng, r\u1ea5t nhanh kh\u00f4ng t\u1ee5t)(ch\u1ec9 h\u1ed7 tr\u1ee3 nh\u00f3m c\u00f4ng khai, c\u1ed1 t\u00ecnh c\u00e0i ri\u00eang t\u01b0 h\u1ee7y kh\u00f4ng ho\u00e0n)",
-            "rate": 25600,
+            "rate": 32000,
             "min": 0,
             "max": 0,
             "type": "default",
@@ -344,7 +333,7 @@
         },
         {
             "name": "Member Clon Vi\u1ec7t (sale) 2-20k\/ng\u00e0y-",
-            "rate": 27200,
+            "rate": 28800,
             "min": 100,
             "max": 300000,
             "type": "default",
@@ -366,7 +355,7 @@
         },
         {
             "name": "Member Clon Vi\u1ec7t+Page pro5 T\u00ean Vi\u1ec7t 20-50k\/ng\u00e0y(\u01b0u ti\u00ean d\u00f9ng, r\u1ea5t nhanh kh\u00f4ng t\u1ee5t)(ch\u1ec9 h\u1ed7 tr\u1ee3 nh\u00f3m c\u00f4ng khai)(VIP Sale m\u1edbi nh\u1ea5t)",
-            "rate": 25600,
+            "rate": 32000,
             "min": 100,
             "max": 0,
             "type": "default",
@@ -443,7 +432,7 @@
         },
         {
             "name": "Vip like x\u1ecbn (\u1ed5n \u0111\u1ecbnh)",
-            "rate": 8000,
+            "rate": 8800,
             "min": 0,
             "max": 0,
             "type": "fb_viplike",
@@ -454,7 +443,7 @@
         },
         {
             "name": "Vip like sale",
-            "rate": 4800,
+            "rate": 5600,
             "min": 0,
             "max": 0,
             "type": "fb_viplike",
@@ -465,7 +454,7 @@
         },
         {
             "name": "M\u1eaft live gi\u00e1 r\u1ebb",
-            "rate": 800,
+            "rate": 2400,
             "min": 0,
             "max": 0,
             "type": "fb_eyeslive",
@@ -860,17 +849,6 @@
             "category": "Telegram - T\u0103ng Th\u00e0nh Vi\u00ean"
         },
         {
-            "name": "Like Twitter 10k\/ng\u00e0y(\u1ed5n \u0111\u1ecbnh)(Nhanh)",
-            "rate": 62400,
-            "min": 0,
-            "max": 10000,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 109,
-            "category": "Twitter - T\u0103ng Like Post"
-        },
-        {
             "name": "Like Twitter 100k\/ng\u00e0y(VIP)",
             "rate": 76800,
             "min": 0,
@@ -993,91 +971,25 @@
         },
         {
             "name": "package 1",
-            "rate": 64,
+            "rate": 38400,
             "min": 500,
             "max": 0,
             "type": "default",
             "refill": 0,
             "cancel": 0,
-            "service": 127,
-            "category": "Tiktok - T\u0103ng Tim Video"
-        },
-        {
-            "name": "package 2",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 128,
-            "category": "Tiktok - T\u0103ng Tim Video"
-        },
-        {
-            "name": "package 3",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 129,
-            "category": "Tiktok - T\u0103ng Tim Video"
-        },
-        {
-            "name": "package 3",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 132,
+            "service": 130,
             "category": "Tiktok - T\u0103ng Theo D\u00f5i"
         },
         {
-            "name": "package 1",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 134,
-            "category": "Tiktok - T\u0103ng View Video"
-        },
-        {
-            "name": "package 2",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 135,
-            "category": "Tiktok - T\u0103ng View Video"
-        },
-        {
-            "name": "package 3",
-            "rate": 64,
-            "min": 500,
-            "max": 0,
-            "type": "default",
-            "refill": 0,
-            "cancel": 0,
-            "service": 136,
-            "category": "Tiktok - T\u0103ng View Video"
-        },
-        {
-            "name": "like dutube",
-            "rate": 80000,
+            "name": "SUB PAGE VIP 100% page c\u00f3 Avata Vi\u1ec7t Nam t\u1ed1c \u0111\u1ed9 100-1k\/ng\u00e0y b\u1ea3o h\u00e0nh 50 ng\u00e0y, sale t\u1ed1c \u0111\u1ed9 ch\u1eadm l\u01b0u \u00fd khi c\u00e0i",
+            "rate": 30400,
             "min": 100,
-            "max": 0,
+            "max": 5000000,
             "type": "default",
             "refill": 0,
             "cancel": 0,
-            "service": 137,
-            "category": "Youtube - T\u0103ng Like Video"
+            "service": 146,
+            "category": "Facebook - T\u0103ng Theo D\u00f5i"
         },
         {
             "name": "Sub clone Vi\u1ec7t + Page 5-50k\/ng\u00e0y b\u1ea3o h\u00e0nh 30 ng\u00e0y(\u0110ANG R\u1ea4T HOT HOT HOT) \u1ed5n \u0111\u1ecbnh",
@@ -1103,7 +1015,7 @@
         },
         {
             "name": "LIKE PAGE D\u1ea0NG M\u1edaI(20-100k\/ng\u00e0y)",
-            "rate": 27200,
+            "rate": 39520,
             "min": 100,
             "max": 150000000,
             "type": "default",
@@ -1114,13 +1026,35 @@
         },
         {
             "name": "LIKE PAGE D\u1ea0NG M\u1edaI(20-100k\/ng\u00e0y)",
-            "rate": 27200,
+            "rate": 39520,
             "min": 100,
             "max": 150000000,
             "type": "default",
             "refill": 0,
             "cancel": 0,
             "service": 159,
+            "category": "Facebook - T\u0103ng Like Page"
+        },
+        {
+            "name": "sub test t\u1ed1c \u0111\u1ed9 cao k b\u1ea3o h\u00e0nh",
+            "rate": 96000,
+            "min": 100,
+            "max": 0,
+            "type": "default",
+            "refill": 0,
+            "cancel": 0,
+            "service": 162,
+            "category": "Twitter - T\u0103ng Sub\/Follow"
+        },
+        {
+            "name": "Like si\u00eau nhanh",
+            "rate": 80000,
+            "min": 100,
+            "max": 1500000000,
+            "type": "default",
+            "refill": 0,
+            "cancel": 0,
+            "service": 168,
             "category": "Facebook - T\u0103ng Like Page"
         }
     ]

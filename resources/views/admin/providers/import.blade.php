@@ -100,6 +100,12 @@
                   </thead>
                   <tbody>
                     @foreach ($api_services as $service)
+                      @php
+                        $rate = $service['rate'];
+                        if (!$provider['rate_per_1k']) {
+                            $rate = $rate * 1000;
+                        }
+                      @endphp
                       <tr class="tr_{{ $service['service'] }}">
                         <td class="text-center">
                           <input type="checkbox" name="checked_ids[]" value="{{ $service['service'] }}">
@@ -108,8 +114,8 @@
                         <td>{{ $service['name'] }}</td>
                         <td class="text-muted">{{ $service['category'] }}</td>
                         <td class="text-center text-muted w-10p">{{ $service['type'] }}</td>
-                        <td class="text-center w-10p"><strong>{{ number_format($service['rate'], 3) }}</strong></td>
-                        <td class="text-center w-10p"><strong>{{ formatCurrencyF($service['rate'] * $provider['exchange_rate']) }}</strong></td>
+                        <td class="text-center w-10p"> <small class="text-muted">{{ $service['rate'] }}</small> <strong>{{ number_format($rate, 2) }}</strong></td>
+                        <td class="text-center w-10p"><strong>{{ formatCurrencyF($rate * $provider['exchange_rate']) }}</strong></td>
                       </tr>
                     @endforeach
                   </tbody>

@@ -70,7 +70,7 @@
               </tr>
 
               <div class="modal fade" id="modal-update-{{ $value->id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
+                <div class="modal-dialog modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">Cập nhật thông tin #{{ $value->id }}</h5>
@@ -94,21 +94,33 @@
                           <label for="key" class="form-label">Key</label>
                           <input class="form-control" type="text" id="key" name="key" value="{{ $value->key }}" required>
                         </div>
-                        <div class="mb-3">
-                          <label for="exchange_rate" class="form-label">Tỷ giá</label>
-                          <input class="form-control" type="number" id="exchange_rate" name="exchange_rate" value="{{ $value->exchange_rate }}" required>
+                        <div class="row mb-3">
+                          <div class="col-md-6">
+                            <label for="exchange_rate" class="form-label">Tỷ giá</label>
+                            <input class="form-control" type="number" id="exchange_rate" name="exchange_rate" value="{{ $value->exchange_rate }}" required>
+                          </div>
+                          <div class="col-md-6">
+                            <label for="price_percentage_increase" class="form-label">% Tăng giá</label>
+                            <input class="form-control" type="number" id="price_percentage_increase" name="price_percentage_increase" value="{{ $value->price_percentage_increase }}" required>
+                            <small>% tự động tăng giá từ site nguồn lên</small>
+                          </div>
                         </div>
-                        <div class="mb-3">
-                          <label for="price_percentage_increase" class="form-label">% Tăng giá</label>
-                          <input class="form-control" type="number" id="price_percentage_increase" name="price_percentage_increase" value="{{ $value->price_percentage_increase }}" required>
-                          <small>Đây là % tăng giá từ giá gốc lên: nhập 10% thì hệ thống tự động +thêm 10% từ giá gốc bên nguồn</small>
-                        </div>
-                        <div class="mb-3">
-                          <label for="status" class="form-label">Trạng thái</label>
-                          <select class="form-control" id="status" name="status">
-                            <option value="1" @if ($value->status === true) selected @endif>Hoạt động</option>
-                            <option value="0" @if ($value->status === false) selected @endif>Không hoạt động</option>
-                          </select>
+                        <div class="row mb-3">
+                          <div class="col-md-6">
+                            <label for="rate_per_1k" class="form-label">Định dạng giá từ API</label>
+                            <select name="rate_per_1k" id="rate_per_1k" class="form-control">
+                              <option value="0" @if (!$value->rate_per_1k) selected @endif>Giá cho 1 lượt</option>
+                              <option value="1" @if ($value->rate_per_1k) selected @endif>Giá cho 1k lượt</option>
+                            </select>
+                            <small>Kiểm tra xem API nguồn trả rate là giá cho 1000 lượt hay 1 lượt nhé</small>
+                          </div>
+                          <div class="col-md-6">
+                            <label for="status" class="form-label">Trạng thái</label>
+                            <select class="form-control" id="status" name="status">
+                              <option value="1" @if ($value->status === true) selected @endif>Hoạt động</option>
+                              <option value="0" @if ($value->status === false) selected @endif>Không hoạt động</option>
+                            </select>
+                          </div>
                         </div>
                         <div class="mb-3">
                           <label for="description" class="form-label">Ghi chú</label>
@@ -162,21 +174,33 @@
               <label for="key" class="form-label">Key</label>
               <input class="form-control" type="text" id="key" name="key" required>
             </div>
-            <div class="mb-3">
-              <label for="exchange_rate" class="form-label">Tỷ giá</label>
-              <input class="form-control" type="number" id="exchange_rate" name="exchange_rate" required>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="exchange_rate" class="form-label">Tỷ giá</label>
+                <input class="form-control" type="number" id="exchange_rate" name="exchange_rate" required>
+              </div>
+              <div class="col-md-6">
+                <label for="price_percentage_increase" class="form-label">% Tăng giá</label>
+                <input class="form-control" type="number" id="price_percentage_increase" name="price_percentage_increase" required>
+                <small>Kiểm tra xem API nguồn trả rate là giá cho 1000 lượt hay 1 lượt nhé</small>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="price_percentage_increase" class="form-label">% Tăng giá</label>
-              <input class="form-control" type="number" id="price_percentage_increase" name="price_percentage_increase" required>
-              <small>Đây là % tăng giá từ giá gốc lên: nhập 10% thì hệ thống tự động +thêm 10% từ giá gốc bên nguồn</small>
-            </div>
-            <div class="mb-3">
-              <label for="status" class="form-label">Trạng thái</label>
-              <select class="form-control" id="status" name="status">
-                <option value="1">Hoạt động</option>
-                <option value="0">Không hoạt động</option>
-              </select>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="rate_per_1k" class="form-label">Định dạng giá từ API</label>
+                <select name="rate_per_1k" id="rate_per_1k" class="form-control">
+                  <option value="0">Giá cho 1 lượt</option>
+                  <option value="1" selected>Giá cho 1k lượt</option>
+                </select>
+                <small>Kiểm tra xem API nguồn trả rate là giá cho 1000 lượt hay 1 lượt nhé</small>
+              </div>
+              <div class="col-md-6">
+                <label for="status" class="form-label">Trạng thái</label>
+                <select class="form-control" id="status" name="status">
+                  <option value="1">Hoạt động</option>
+                  <option value="0">Không hoạt động</option>
+                </select>
+              </div>
             </div>
             <div class="mb-3">
               <label for="description" class="form-label">Ghi chú</label>

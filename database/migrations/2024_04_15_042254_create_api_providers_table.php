@@ -19,6 +19,7 @@ return new class extends Migration {
       $table->string('type')->default('standard');
       $table->double('balance')->default(0);
       $table->boolean('status')->default(true);
+      $table->boolean('price_of_1k')->default(true);
       $table->boolean('auto_sync')->default(false);
       $table->string('description')->nullable();
       $table->string('currency_code')->default('USD');
