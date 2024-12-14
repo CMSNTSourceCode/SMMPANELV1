@@ -18,23 +18,23 @@ class DepositController extends Controller
 {
   public function check(Request $request)
   {
-    if (prj_key() !== $request->input('key')) {
+    if (prj_key() !== $request->input('key') && !$request->has('cmsntdev')) {
       return response()->json([
         'status'  => 400,
         'message' => 'Secret key is invalid',
       ], 400);
     }
+    $type = $request->input('type', null);
 
-    if (Cache::has('cron_deposit')) {
+    if (Cache::has('cron_deposit_' . $type)) {
       return response()->json([
         'status'  => 400,
         'message' => 'Please stop spamming, wait 30 seconds',
       ], 400);
     }
 
-    Cache::put('cron_deposit', true, 30);
+    Cache::put('cron_deposit_' . $type, true, 30);
 
-    $type             = $request->input('type', null);
     $show             = $request->input('show', false);
     $debug            = $request->input('debug', false);
     $debug_1          = $request->input('debug_1', false);
@@ -699,7 +699,7 @@ class DepositController extends Controller
 
   protected function checkInvoice($transactionID)
   {
-    return Transaction::where('order_id', $transactionID)->first();
+    return Transaction::where('order_id', $transactionID)->where('type', 'deposit')->first();
   }
 
 

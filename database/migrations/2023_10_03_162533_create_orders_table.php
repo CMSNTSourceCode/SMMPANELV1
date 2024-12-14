@@ -22,7 +22,7 @@ return new class extends Migration {
       $table->boolean('src_place')->default(false);
       $table->string('src_status')->default('Pending');
       $table->string('order_code');
-      $table->string('object_id');
+      $table->string('object_id', 500);
       $table->string('quantity');
       $table->integer('start_number');
       $table->integer('success_count');
