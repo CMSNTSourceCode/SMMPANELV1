@@ -30,6 +30,7 @@ class Update
     self::$client_key = env('PRJ_CLIENT_KEY', 'meomatcang');
   }
 
+
   public static function enableUpdate()
   {
     return env('PRJ_AUTO_UPDATE', false);
@@ -124,13 +125,9 @@ class Update
     $zip = new \ZipArchive();
 
     if ($zip->open($file) === true) {
-      $whiteList = [
-        "app/Libraries/Update.php",
-      ];
-      # not overwrite file in whiteList files
-      $overwrite = true;
-      $zip->extractTo(self::$base_path, $whiteList, $overwrite);
+      $zip->extractTo(base_path());
       $zip->close();
+
       return true;
     }
 
@@ -187,6 +184,8 @@ class Update
       // $env = file_get_contents(base_path('.env'));
       // $env = str_replace('MAIL_MAILER=log', 'MAIL_MAILER=smtp', $env);
       // file_put_contents(base_path('.env'), $env);
+
+
 
       return $config->save();
     } catch (\Exception $th) {

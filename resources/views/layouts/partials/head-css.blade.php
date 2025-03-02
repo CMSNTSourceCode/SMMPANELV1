@@ -85,7 +85,7 @@
   <script src="/plugins/pace-js/pace.min.js"></script>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@600;700;800&display=swap">
 
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/dataTables.bootstrap5.min.css">
@@ -114,7 +114,7 @@
     }
 
     body {
-      font-family: 'Archivo', sans-serif;
+      font-family: 'Roboto', sans-serif;
       letter-spacing: 0.5px;
     }
 

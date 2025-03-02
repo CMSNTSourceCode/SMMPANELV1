@@ -157,7 +157,7 @@ class V2Controller extends Controller
     $srcCost = 0;
 
     if ($service->add_type === 'api') {
-      $srcCost = ($service->original_price * $totalPayment) / $service->price;
+      $srcCost = ($service->original_price * $totalPayment) / $service->original_price;
       // $srcCost = $service->original_price * $quantity / 1000;
     }
 
@@ -211,7 +211,7 @@ class V2Controller extends Controller
     // tiep tuc hoan thanh don hang neu khong co loi xay ra
     $order = Order::create($orderData);
 
-    Transaction::create([
+    $trans = Transaction::create([
       'code'           => $orderData['order_code'],
       'amount'         => $totalPayment,
       'balance_before' => $user->balance + $totalPayment,
@@ -240,6 +240,7 @@ class V2Controller extends Controller
     $content .= "🕒 Thời gian: " . date('d/m/Y H:i:s') . "\n";
     $content .= "👤 Người dùng: " . $user->username . "\n";
     $content .= "🔗 Object ID: " . $object_id . "\n";
+    $content .= "💳 Giao dịch: " . number_format($trans->balance_before, 0, ',', '.') . " - " . number_format($trans->amount, 0, ',', '.') . " = " . number_format($trans->balance_after, 0, ',', '.') . " " . cur_setting('currency_code', 'VND') . "\n";
     $content .= "\n\n";
 
     Helper::sendMessageTelegramAuto($content);

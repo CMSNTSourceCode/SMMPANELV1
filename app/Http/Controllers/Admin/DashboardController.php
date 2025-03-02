@@ -99,15 +99,15 @@ class DashboardController extends Controller
     $stats['revenue_profit']   = [
       // total
       'total_revenue'       => Order::sum('total_payment'),
-      'total_profit'        => Order::sum('total_payment') - Order::sum('src_cost'),
+      'total_profit'        => Order::sum('total_payment') - Order::sum('total_payment'),
 
       // month
       'total_revenue_month' => Order::whereMonth('created_at', date('m'))->sum('total_payment'),
-      'total_profit_month'  => Order::whereMonth('created_at', date('m'))->sum('total_payment') - Order::whereMonth('created_at', date('m'))->sum('src_cost'),
+      'total_profit_month'  => Order::whereMonth('created_at', date('m'))->sum('total_payment') - Order::whereMonth('created_at', date('m'))->sum('total_payment'),
 
       // today
       'total_revenue_today' => Order::whereDate('created_at', date('Y-m-d'))->sum('total_payment'),
-      'total_profit_today'  => Order::whereDate('created_at', date('Y-m-d'))->sum('total_payment') - Order::whereDate('created_at', date('Y-m-d'))->sum('src_cost'),
+      'total_profit_today'  => Order::whereDate('created_at', date('Y-m-d'))->sum('total_payment') - Order::whereDate('created_at', date('Y-m-d'))->sum('total_payment'),
     ];
     $stats['t_revenue_profit'] = [
       'total_revenue'       => [

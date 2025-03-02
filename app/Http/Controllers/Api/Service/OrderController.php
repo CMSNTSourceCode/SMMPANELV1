@@ -23,7 +23,7 @@ class OrderController extends Controller
       'slug'       => 'nullable|string|max:255',
       'category'   => 'nullable|string|max:255',
       'username'   => 'nullable|string|max:255',
-      'status'     => 'nullable|string',
+      'status'     => 'nullable|string|in:Pending,Processing,Completed,WaitingForRefund,Refund,Error,Running',
       'sortBy'     => 'nullable|string|max:255',
       'sortType'   => 'nullable|string|in:asc,desc',
       'service_id' => 'nullable|integer|regex:/^[0-9]+$/',
@@ -387,7 +387,7 @@ class OrderController extends Controller
       $srcCost = 0;
 
       if ($service->add_type === 'api') {
-        $srcCost = ($service->original_price * $totalPayment) / $service->price;
+        $srcCost = ($service->original_price * $totalPayment) / $service->original_price;
       }
 
       // one order of multiple orders (count($objectsIdArr) > 1)
@@ -477,9 +477,15 @@ class OrderController extends Controller
       $content .= "🕒 Thời gian: " . date('d/m/Y H:i:s') . "\n";
       $content .= "👤 Người dùng: " . $user->username . "\n";
       $content .= "🔗 Object ID: " . $object_id . "\n";
+
+      $content .= "💳 Giao dịch: " . number_format($trans->balance_before, 0, ',', '.') . " - " . number_format($trans->amount, 0, ',', '.') . " = " . number_format($trans->balance_after, 0, ',', '.') . " " . cur_setting('currency_code', 'VND') . "\n";
       $content .= "\n\n";
 
-      Helper::sendMessageTelegramAuto($content);
+      try {
+        Helper::sendMessageTelegramAuto($content);
+      } catch (\Exception $e) {
+        // do nothing
+      }
     }
 
     $output = [];
@@ -528,7 +534,7 @@ class OrderController extends Controller
       $order->where('user_id', $user->id);
     }
 
-    $order = $order->where('id', $id)->first();
+    $order = $order->where('id', $id)->whereNotIn('order_status', ['Partial', 'WaitingForRefund', 'Completed'])->first();
 
     if ($order === null) {
       return response()->json([
@@ -538,7 +544,7 @@ class OrderController extends Controller
     }
     // action - call api
 
-    if ($order->src_place) {
+    if ($order->src_place && $action === 'update') {
       $provider = $order->provider;
 
       if ($provider === null) {
@@ -575,11 +581,11 @@ class OrderController extends Controller
         case 'pending':
           $status = 'Pending';
           break;
-        case 'partial':
-          $status = 'WaitingForRefund';
-        case 'canceled':
-          $status = 'WaitingForRefund';
-          break;
+        // case 'partial':
+        //   $status = 'WaitingForRefund';
+        // case 'canceled':
+        //   $status = 'WaitingForRefund';
+        //   break;
         default:
           # code...
           $status = $result['status'];

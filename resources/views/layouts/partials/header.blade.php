@@ -71,11 +71,7 @@
         <!-- End::header-link|dropdown-toggle -->
         <!-- Start::main-header-dropdown -->
         @php
-
           $currency_list = \App\Models\CurrencyList::get();
-
-          // $currency_list = array_merge([cur_setting()], $currency_list->toArray());
-
         @endphp
         <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
           <div class="p-3">

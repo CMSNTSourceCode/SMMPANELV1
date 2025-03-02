@@ -18,7 +18,8 @@
               <label for="select_status" class="form-label">Trạng thái : </label>
               <select name="status" id="select_status" class="form-select">
                 <option value="">Tất cả</option>
-                <option value="Peding">Đang chờ</option>
+                <option value="Error">Đơn lỗi</option>
+                <option value="Pending">Đang chờ</option>
                 <option value="Running">Đang chạy</option>
                 <option value="Processing">Đang tăng</option>
                 <option value="Refund">Hoàn tiền</option>
@@ -550,7 +551,7 @@
 
             const comments = data.extra_data['comments']
 
-            if (comments) {
+            if (comments.length > 0) {
               $modal.find('.form_comments').show()
               $modal.find('#comments').val(comments.join("\n"))
             } else {

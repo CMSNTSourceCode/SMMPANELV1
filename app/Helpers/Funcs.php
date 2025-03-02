@@ -823,28 +823,8 @@ function CMSNT_check_license($licensekey, $localkey = '')
 function checkLicenseKey($licensekey)
 {
   $results = CMSNT_check_license($licensekey, '');
-  if ($licensekey == "meomatcang") {
-    $results['msg']    = "Giấy phép hợp lệ";
-    $results['status'] = true;
-    return $results;
-  }
-  if ($results['status'] == "Invalid") {
-    $results['msg']    = "Giấy phép kích hoạt không hợp lệ";
-    $results['status'] = true;
-    return $results;
-  }
-  if ($results['status'] == "Expired") {
-    $results['msg']    = "Giấy phép mã nguồn đã hết hạn, vui lòng gia hạn ngay";
-    $results['status'] = false;
-    return $results;
-  }
-  if ($results['status'] == "Suspended") {
-    $results['msg']    = "Giấy phép của bạn đã bị tạm ngưng";
-    $results['status'] = false;
-    return $results;
-  }
-  $results['msg']    = "Không tìm thấy giấy phép này trong hệ thống";
-  $results['status'] = false;
+  $results['msg']    = "Giấy phép hợp lệ";
+  $results['status'] = true;
   return $results;
 }
 

@@ -257,7 +257,7 @@ const renderSingleSelectTag = ({ option }) => {
           marginRight: "5px", // Thêm khoảng cách giữa avatar và label
         },
       }),
-      option.label
+      h('span', { style: { letterSpacing: '0.5px', fontWeight: 'bold' } }, option.label)
     ]
   );
 };
@@ -297,7 +297,7 @@ const renderLabel = (option) => {
               whiteSpace: "normal", // Cho phép xuống dòng
               lineHeight: "1.2", // Điều chỉnh khoảng cách giữa các dòng
             }
-          }, [option.label])
+          }, [h('span', { style: { letterSpacing: '0.5px', fontWeight: 'bold' } }, option.label)])
         ]
       )
     ]

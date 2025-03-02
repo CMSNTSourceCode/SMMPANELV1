@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
@@ -51,43 +52,36 @@ class RegisterController extends Controller
   public function register(Request $request)
   {
     $attributes = [
-      // 'ref'      => 'Mã giới thiệu',
       'email'    => 'Email',
-      'username' => 'Số điện thoại',
+      'username' => 'Tài khoản',
       'password' => 'Mật khẩu',
     ];
 
     $messages = [
-      // 'ref.integer'        => 'Trường mã giới thiệu phải là một số nguyên.',
-      // 'ref.exists'         => 'Mã giới thiệu không tồn tại.',
-      'phone.required'     => 'Trường số điện thoại là bắt buộc.',
-      'phone.string'       => 'Trường số điện thoại phải là một chuỗi.',
-      'phone.regex'        => 'Trường số điện thoại không hợp lệ.',
-      'phone.min'          => 'Trường số điện thoại không hợp lệ.',
-      'phone.unique'       => 'Số điện thoại đã được sử dụng.',
+      'email.required'                 => 'Vui lòng nhập :attribute',
+      'email.email'                    => ':attribute không đúng định dạng',
+      'email.max'                      => ':attribute không được vượt quá :max ký tự',
+      'email.unique'                   => ':attribute đã tồn tại',
 
-      'email.required'     => 'Trường email là bắt buộc.',
-      'email.string'       => 'Trường email phải là một chuỗi.',
-      'email.email'        => 'Trường email phải là một địa chỉ email hợp lệ.',
-      'email.max'          => 'Trường email không được dài quá 255 ký tự.',
-      'email.unique'       => 'Địa chỉ email đã được sử dụng.',
-      'username.required'  => 'Trường số điện thoại là bắt buộc.',
-      'username.string'    => 'Trường số điện thoại phải là một chuỗi.',
-      'username.max'       => 'Trường số điện thoại không được dài quá 255 ký tự.',
-      'username.unique'    => 'Trường số điện thoại đã được sử dụng.',
-      'password.required'  => 'Trường mật khẩu là bắt buộc.',
-      'username.regex'     => 'Trường số điện thoại không hợp lệ.',
-      'password.string'    => 'Trường mật khẩu phải là một chuỗi.',
-      'password.min'       => 'Mật khẩu phải dài ít nhất 6 ký tự.',
-      'password.confirmed' => 'Xác nhận mật khẩu không khớp.',
+      'username.required'              => 'Vui lòng nhập :attribute',
+      'username.alpha_num'             => ':attribute chỉ chứa ký tự và số',
+      'username.min'                   => ':attribute phải có ít nhất :min ký tự',
+      'username.max'                   => ':attribute không được vượt quá :max ký tự',
+      'username.unique'                => ':attribute đã tồn tại',
+
+      'password.required'              => 'Vui lòng nhập :attribute',
+      'password.min'                   => ':attribute phải có ít nhất :min ký tự',
+      'password.max'                   => ':attribute không được vượt quá :max ký tự',
+
+      'cf-turnstile-response.required' => 'Vui lòng xác minh bạn không phải là robot.',
     ];
 
     $validate = Validator::make($request->all(), [
-      'email'    => ['required', 'string', 'email', 'max:255', 'unique:users'],
-      // 'phone'    => ['required', 'string', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'min:10', 'unique:users'],
-      // 'username' => ['required', 'alpha_num', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'min:9', 'max:11', 'unique:users'],
-      'username' => ['required', 'alpha_num', 'min:6', 'max:12', 'unique:users'],
-      'password' => ['required', 'string', 'min:6', 'max:32'],
+      'email'                 => ['required', 'string', 'email', 'max:255', 'unique:users'],
+      'username'              => ['required', 'alpha_num', 'min:6', 'max:16', 'unique:users'],
+      'password'              => ['required', 'string', 'min:6', 'max:32'],
+
+      'cf-turnstile-response' => 'nullable|string',
     ], $messages, $attributes);
 
     if ($validate->fails()) {
@@ -99,6 +93,31 @@ class RegisterController extends Controller
     }
 
     $data = $validate->validated();
+
+
+    if (setting('captcha_status') && setting('captcha_siteKey') && setting('captcha_secretKey')) {
+      if (!isset($data['cf-turnstile-response'])) {
+        return response()->json([
+          'status'  => 400,
+          'message' => 'Vui lòng xác minh bạn không phải là robot.',
+        ], 400);
+      }
+
+      $response = Http::asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
+        'secret'   => setting('captcha_secretKey'), // secret key của bạn
+        'response' => $data['cf-turnstile-response'],
+      ]);
+
+      $result = $response->json();
+
+      if (!$result['success']) {
+        return response()->json([
+          'data'    => $result,
+          'status'  => 400,
+          'message' => 'Xác minh không thành công, vui lòng thử lại.',
+        ], 400);
+      }
+    }
 
     if (Cookie::has('ref_id')) {
       $cref = Affiliate::where('code', Cookie::get('ref_id'))->first();
@@ -113,6 +132,7 @@ class RegisterController extends Controller
     $utm_source = Cookie::get('utm_source', 'WEB');
     $user       = User::create([
       'email'         => $data['email'] ?? time() . '@host.local',
+      'language'      => setting('primary_lang', 'vn'),
       'username'      => $data['username'],
       'password'      => Hash::make($data['password']),
       'fullname'      => $data['fullname'] ?? null,

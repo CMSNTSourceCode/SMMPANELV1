@@ -39,6 +39,11 @@ class GeneralController extends Controller
         'primary_lang'        => 'nullable|string|max:10',
         'color_primary'       => 'nullable|string|max:255',
         'color_primary_hover' => 'nullable|string|max:255',
+
+        //
+        'captcha_status'      => 'nullable|boolean',
+        'captcha_siteKey'     => 'nullable|string',
+        'captcha_secretKey'   => 'nullable|string',
       ]);
 
       $config = Config::firstOrCreate(['name' => $type], ['value' => []]);

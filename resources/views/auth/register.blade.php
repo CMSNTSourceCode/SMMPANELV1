@@ -1,5 +1,10 @@
 @extends('layouts.guest')
 @section('title', __t('Đăng Ký Tài Khoản'))
+@if (setting('captcha_status'))
+  @section('css')
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+  @endsection
+@endif
 @section('content')
   <!-- PAGE -->
   <div class="page login-page">
@@ -46,8 +51,13 @@
                   <i class="ri-lock-fill" aria-hidden="true"></i>
                 </span>
               </div>
+              @if (setting('captcha_status', false))
+                <div class="wrap-input100 validate-input text-center">
+                  <div class="cf-turnstile" data-sitekey="{{ setting('captcha_siteKey') }}"></div>
+                </div>
+              @endif
               <label class="custom-control custom-checkbox mt-4">
-                <input class="form-check-input" type="checkbox" name="agree" id="checkboxNoLabel" aria-label="...">
+                <input class="form-check-input" type="checkbox" name="agree" id="checkboxNoLabel" aria-label="..." checked>
                 <span class="custom-control-label ms-1">{{ __t('Đồng ý tất cả') }} <a href="{{ route('pages.tos') }}" class="text-primary">{{ __t('quy định sử dụng') }}</a></span>
               </label>
               <div class="container-login100-form-btn">
@@ -121,6 +131,12 @@
           Swal.fire('{{ __t('Thất bại') }}', $catchMessage(error), 'error')
         } finally {
           $removeLoading(button);
+
+          if (typeof turnstile !== 'undefined') {
+            turnstile.reset();
+          } else {
+            console.log("Turnstile not loaded yet");
+          }
         }
       });
     });

@@ -164,7 +164,7 @@ class OrderController extends Controller
             ])
             ->json();
 
-          if (isset($result['error']) && !isset($result['order']) || !isset($result['order_id'])) {
+          if (isset($result['error'])) {
             $order->update([
               'src_resp'     => $result,
               'src_place'    => true,
@@ -215,6 +215,7 @@ class OrderController extends Controller
       ]);
 
       return response()->json([
+        'data'    => $e->getMessage(),
         'status'  => 500,
         'message' => 'Internal server error',
       ], 500);
@@ -259,7 +260,7 @@ class OrderController extends Controller
     if ($status !== null) {
       $query->where('order_status', $status);
     } else {
-      $query->whereNotIn('order_status', ['Completed', 'Refund', 'Canceled', 'Error']);
+      $query->whereNotIn('order_status', ['Completed', 'Refund', 'Canceled', 'Error', 'Partial']);
     }
     // get orders by username
     if ($username !== null) {
@@ -302,6 +303,10 @@ class OrderController extends Controller
 
 
       $list = $app->multiStatus($provider->toArray(), $order_ids);
+
+      if ($debug_2) {
+        return $list;
+      }
 
       if (!is_array($list)) {
         return response()->json([
@@ -348,8 +353,12 @@ class OrderController extends Controller
             case 'canceled':
               $status = 'Refund';
               break;
+            case 'canelled':
+              $status = 'Refund';
+              break;
             case 'partial':
               $status = 'Partial';
+              break;
             default:
               # code...
               $status = 'Processing';
@@ -362,8 +371,8 @@ class OrderController extends Controller
             $order->update([
               'updated_at'    => now(),
               'order_status'  => $status,
-              'start_number'  => $row['start_count'] ?? 0,
-              'success_count' => $order->quantity - $row['remains'],
+              'start_number'  => (int) ($row['start_count'] ?? 0),
+              'success_count' => $order->quantity - (int) ($row['remains'] ?? 1),
             ]);
           }
 
@@ -388,7 +397,9 @@ class OrderController extends Controller
       return false;
     }
 
-    if (!isset($data['remains']) || !is_numeric($data['remains']) || $data['remains'] < 0) {
+    $data['remains'] = (int) ($data['remains'] ?? 0);
+
+    if (!isset($data['remains']) || !is_numeric($data['remains'])) {
       $data['remains'] = 0;
     }
 
@@ -396,7 +407,7 @@ class OrderController extends Controller
 
     if ($status === 'Partial' && $remains === 0) {
       return $order->update([
-        'order_status' => 'Cancelled',
+        'order_status' => 'Canceled',
         'extra_note'   => 'Partial order but remains is 0',
       ]);
     }
@@ -415,9 +426,17 @@ class OrderController extends Controller
 
     $user->increment('balance', $totalRefund);
 
+    //
+    $srcTotalRefund = (double) ($order->src_cost / $order->quantity) * (int) $remains;
+
+    if ($srcTotalRefund < 0) {
+      $srcTotalRefund = 0;
+    }
+
     $order->update([
+      'src_cost'      => $order->src_cost - $srcTotalRefund,
       'order_status'  => $status,
-      'start_number'  => $data['start_count'] ?? 0,
+      'start_number'  => (int) ($data['start_count'] ?? 0),
       'total_payment' => $order->total_payment - $totalRefund,
       'success_count' => $order->quantity - $remains,
     ]);
